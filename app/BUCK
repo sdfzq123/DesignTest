@@ -1,0 +1,68 @@
+APP_CLASS_SOURCE = 'src/main/java/com/designtest/app/AppShell.java'
+
+android_library(
+  name = 'src',
+  srcs =  glob(['src/main/**/*.java'], excludes = [APP_CLASS_SOURCE]),
+  resources = [':res'],
+  deps = [
+    ':res',
+    '//libs:all-jars',
+  ],
+  visibility = ['PUBLIC'],
+)
+
+android_library(
+    name = 'application-lib',
+    srcs = [APP_CLASS_SOURCE],
+    resources = [':res'],
+    deps = [
+        # This is the android_build_config() rule that you created in Step 4.
+        # If you jumped straight to Step 5 because your Android app was already
+        # configured to build with Buck, then go back to Step 4 and add this rule
+        # if you aren't already using an android_build_config().
+      ':build-config',
+
+      # This is the prebuilt_jar() rule that wraps buck-android-support.jar.
+      '//libs:all-jars',
+      ':res',
+    ],
+)
+
+android_resource(
+  name = 'res',
+  res = 'src/main/res',
+  package = 'com.designtest.app',
+)
+
+android_build_config(
+    name = 'build-config',
+    package = 'com.designtest.app',
+)
+
+keystore(
+  name = 'debug_keystore',
+  store = 'debug.keystore',
+  properties = 'debug.keystore.properties',
+)
+
+
+android_manifest(
+    name = 'manifest',
+    skeleton = 'src/main/AndroidManifest.xml',
+)
+
+android_binary(
+  name = 'app',
+  manifest = ':manifest',
+  keystore = ':debug_keystore',
+  deps = [
+    ':application-lib',
+    ':res',
+    ':src',
+  ],
+)
+
+project_config(
+  src_target = ':app',
+  src_roots = ['src/main/java', 'src/main/aidl'],
+)

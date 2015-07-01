@@ -1,0 +1,52 @@
+import re
+
+jar_deps = []
+
+for jarfile in glob(['*.jar']):
+  name = 'jars__' + re.sub(r'^.*/([^/]+)\.jar$', r'\1', jarfile)
+  jar_deps.append(':' + name)
+  prebuilt_jar(
+    name = name,
+    binary_jar = jarfile,
+  )
+
+android_prebuilt_aar(
+  name = 'support-v4',
+  aar = 'support-v4-22.2.0.aar',
+  visibility = [ 'PUBLIC' ],
+)
+
+android_prebuilt_aar(
+  name = 'appcompat',
+  aar = 'appcompat-v7-22.2.0.aar',
+  visibility = [ 'PUBLIC' ],
+)
+
+android_prebuilt_aar(
+  name = 'android-design',
+  aar = 'design-22.2.0.aar',
+  visibility = [ 'PUBLIC' ],
+)
+
+android_prebuilt_aar(
+  name = 'support-v13',
+  aar = 'support-v13-22.2.0.aar',
+  visibility = [ 'PUBLIC' ],
+)
+
+jar_deps.append(':support-v4')
+jar_deps.append(':support-v13')
+jar_deps.append(':appcompat')
+jar_deps.append(':android-design')
+
+android_library(
+  name = 'all-jars',
+  exported_deps = jar_deps,
+  visibility = [
+    '//...'
+  ],
+)
+
+project_config(
+    src_target = ':all-jars',
+)

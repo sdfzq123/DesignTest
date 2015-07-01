@@ -1,0 +1,12 @@
+[alias]
+    app = //apps/DesignTest:app
+
+[android]
+    target = Google Inc.:Google APIs:21
+
+[project]
+  ignore = .git
+
+[intellij]
+  default_android_manifest_path = src/main/AndroidManifest.xml
+  default_android_resource_path = src/main/res

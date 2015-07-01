@@ -1,0 +1,1 @@
+/home/fzq/workspace/DesignTest/buck-out/gen/app/__res_text_symbols__/R.txt

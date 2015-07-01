@@ -1,0 +1,868 @@
+[2015-07-01 14:31:56.986][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:29][com.facebook.buck.cli.Main] Starting up (build date 2015-06-17 16:35:48 +0800, rev b19139c16670e7f886b0bce6243fcd7f27c2a1a3), args: [install, -r, app:app]
+[2015-07-01 14:31:57.017][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:29][com.facebook.buck.cli.BuckConfig] Loaded a configuration file /home/fzq/workspace/DesignTest/.buckconfig: {alias={app=//apps/DesignTest:app}, android={target=Google Inc.:Google APIs:21}, project={ignore=.git}, intellij={default_android_manifest_path=src/main/AndroidManifest.xml, default_android_resource_path=src/main/res}}
+[2015-07-01 14:31:57.018][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:29][com.facebook.buck.cli.BuckConfig] Adding configuration overrides: {}
+[2015-07-01 14:31:57.020][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:29][com.facebook.buck.cli.BuckConfig] Loaded a configuration file /home/fzq/workspace/DesignTest/.buckconfig: {alias={app=//apps/DesignTest:app}, android={target=Google Inc.:Google APIs:21}, project={ignore=.git}, intellij={default_android_manifest_path=src/main/AndroidManifest.xml, default_android_resource_path=src/main/res}}
+[2015-07-01 14:31:57.020][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:29][com.facebook.buck.cli.BuckConfig] Adding configuration overrides: {}
+[2015-07-01 14:31:57.022][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:29][com.facebook.buck.io.ExecutableFinder] Executable 'python2' mapped to 'Optional.of(/usr/bin/python2)'
+[2015-07-01 14:31:57.027][warn ][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:29][com.facebook.buck.apple.AppleConfig] Could not execute xcode-select, continuing without developer dir.
+[2015-07-01 14:31:57.028][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:29][com.facebook.buck.io.ExecutableFinder] Executable '/home/fzq/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/arm-linux-androideabi/bin/as' mapped to 'Optional.of(/home/fzq/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/arm-linux-androideabi/bin/as)'
+[2015-07-01 14:31:57.029][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:29][com.facebook.buck.io.ExecutableFinder] Executable '/home/fzq/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/arm-linux-androideabi/bin/gcc' mapped to 'Optional.of(/home/fzq/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/arm-linux-androideabi/bin/gcc)'
+[2015-07-01 14:31:57.029][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:29][com.facebook.buck.io.ExecutableFinder] Executable '/home/fzq/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/arm-linux-androideabi/bin/gcc' mapped to 'Optional.of(/home/fzq/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/arm-linux-androideabi/bin/gcc)'
+[2015-07-01 14:31:57.030][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:29][com.facebook.buck.io.ExecutableFinder] Executable '/home/fzq/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/arm-linux-androideabi/bin/gcc' mapped to 'Optional.of(/home/fzq/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/arm-linux-androideabi/bin/gcc)'
+[2015-07-01 14:31:57.031][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:29][com.facebook.buck.io.ExecutableFinder] Executable '/home/fzq/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/arm-linux-androideabi/bin/g++' mapped to 'Optional.of(/home/fzq/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/arm-linux-androideabi/bin/g++)'
+[2015-07-01 14:31:57.032][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:29][com.facebook.buck.io.ExecutableFinder] Executable '/home/fzq/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/arm-linux-androideabi/bin/g++' mapped to 'Optional.of(/home/fzq/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/arm-linux-androideabi/bin/g++)'
+[2015-07-01 14:31:57.033][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:29][com.facebook.buck.io.ExecutableFinder] Executable '/home/fzq/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/arm-linux-androideabi/bin/g++' mapped to 'Optional.of(/home/fzq/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/arm-linux-androideabi/bin/g++)'
+[2015-07-01 14:31:57.033][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:29][com.facebook.buck.io.ExecutableFinder] Executable '/home/fzq/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/arm-linux-androideabi/bin/ld.gold' mapped to 'Optional.of(/home/fzq/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/arm-linux-androideabi/bin/ld.gold)'
+[2015-07-01 14:31:57.034][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:29][com.facebook.buck.io.ExecutableFinder] Executable '/home/fzq/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/arm-linux-androideabi/bin/ar' mapped to 'Optional.of(/home/fzq/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/arm-linux-androideabi/bin/ar)'
+[2015-07-01 14:31:57.034][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:29][com.facebook.buck.io.ExecutableFinder] Executable '/home/fzq/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/arm-linux-androideabi/bin/objcopy' mapped to 'Optional.of(/home/fzq/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/arm-linux-androideabi/bin/objcopy)'
+[2015-07-01 14:31:57.035][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:29][com.facebook.buck.io.ExecutableFinder] Executable '/home/fzq/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/arm-linux-androideabi/bin/as' mapped to 'Optional.of(/home/fzq/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/arm-linux-androideabi/bin/as)'
+[2015-07-01 14:31:57.036][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:29][com.facebook.buck.io.ExecutableFinder] Executable '/home/fzq/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/arm-linux-androideabi/bin/gcc' mapped to 'Optional.of(/home/fzq/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/arm-linux-androideabi/bin/gcc)'
+[2015-07-01 14:31:57.036][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:29][com.facebook.buck.io.ExecutableFinder] Executable '/home/fzq/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/arm-linux-androideabi/bin/gcc' mapped to 'Optional.of(/home/fzq/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/arm-linux-androideabi/bin/gcc)'
+[2015-07-01 14:31:57.037][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:29][com.facebook.buck.io.ExecutableFinder] Executable '/home/fzq/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/arm-linux-androideabi/bin/gcc' mapped to 'Optional.of(/home/fzq/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/arm-linux-androideabi/bin/gcc)'
+[2015-07-01 14:31:57.038][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:29][com.facebook.buck.io.ExecutableFinder] Executable '/home/fzq/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/arm-linux-androideabi/bin/g++' mapped to 'Optional.of(/home/fzq/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/arm-linux-androideabi/bin/g++)'
+[2015-07-01 14:31:57.038][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:29][com.facebook.buck.io.ExecutableFinder] Executable '/home/fzq/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/arm-linux-androideabi/bin/g++' mapped to 'Optional.of(/home/fzq/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/arm-linux-androideabi/bin/g++)'
+[2015-07-01 14:31:57.039][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:29][com.facebook.buck.io.ExecutableFinder] Executable '/home/fzq/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/arm-linux-androideabi/bin/g++' mapped to 'Optional.of(/home/fzq/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/arm-linux-androideabi/bin/g++)'
+[2015-07-01 14:31:57.040][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:29][com.facebook.buck.io.ExecutableFinder] Executable '/home/fzq/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/arm-linux-androideabi/bin/ld.gold' mapped to 'Optional.of(/home/fzq/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/arm-linux-androideabi/bin/ld.gold)'
+[2015-07-01 14:31:57.040][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:29][com.facebook.buck.io.ExecutableFinder] Executable '/home/fzq/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/arm-linux-androideabi/bin/ar' mapped to 'Optional.of(/home/fzq/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/arm-linux-androideabi/bin/ar)'
+[2015-07-01 14:31:57.041][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:29][com.facebook.buck.io.ExecutableFinder] Executable '/home/fzq/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/arm-linux-androideabi/bin/objcopy' mapped to 'Optional.of(/home/fzq/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/arm-linux-androideabi/bin/objcopy)'
+[2015-07-01 14:31:57.042][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:29][com.facebook.buck.io.ExecutableFinder] Executable '/home/fzq/Android/android-ndk-r10e/toolchains/x86-4.8/prebuilt/linux-x86_64/i686-linux-android/bin/as' mapped to 'Optional.of(/home/fzq/Android/android-ndk-r10e/toolchains/x86-4.8/prebuilt/linux-x86_64/i686-linux-android/bin/as)'
+[2015-07-01 14:31:57.042][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:29][com.facebook.buck.io.ExecutableFinder] Executable '/home/fzq/Android/android-ndk-r10e/toolchains/x86-4.8/prebuilt/linux-x86_64/i686-linux-android/bin/gcc' mapped to 'Optional.of(/home/fzq/Android/android-ndk-r10e/toolchains/x86-4.8/prebuilt/linux-x86_64/i686-linux-android/bin/gcc)'
+[2015-07-01 14:31:57.043][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:29][com.facebook.buck.io.ExecutableFinder] Executable '/home/fzq/Android/android-ndk-r10e/toolchains/x86-4.8/prebuilt/linux-x86_64/i686-linux-android/bin/gcc' mapped to 'Optional.of(/home/fzq/Android/android-ndk-r10e/toolchains/x86-4.8/prebuilt/linux-x86_64/i686-linux-android/bin/gcc)'
+[2015-07-01 14:31:57.044][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:29][com.facebook.buck.io.ExecutableFinder] Executable '/home/fzq/Android/android-ndk-r10e/toolchains/x86-4.8/prebuilt/linux-x86_64/i686-linux-android/bin/gcc' mapped to 'Optional.of(/home/fzq/Android/android-ndk-r10e/toolchains/x86-4.8/prebuilt/linux-x86_64/i686-linux-android/bin/gcc)'
+[2015-07-01 14:31:57.044][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:29][com.facebook.buck.io.ExecutableFinder] Executable '/home/fzq/Android/android-ndk-r10e/toolchains/x86-4.8/prebuilt/linux-x86_64/i686-linux-android/bin/g++' mapped to 'Optional.of(/home/fzq/Android/android-ndk-r10e/toolchains/x86-4.8/prebuilt/linux-x86_64/i686-linux-android/bin/g++)'
+[2015-07-01 14:31:57.045][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:29][com.facebook.buck.io.ExecutableFinder] Executable '/home/fzq/Android/android-ndk-r10e/toolchains/x86-4.8/prebuilt/linux-x86_64/i686-linux-android/bin/g++' mapped to 'Optional.of(/home/fzq/Android/android-ndk-r10e/toolchains/x86-4.8/prebuilt/linux-x86_64/i686-linux-android/bin/g++)'
+[2015-07-01 14:31:57.046][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:29][com.facebook.buck.io.ExecutableFinder] Executable '/home/fzq/Android/android-ndk-r10e/toolchains/x86-4.8/prebuilt/linux-x86_64/i686-linux-android/bin/g++' mapped to 'Optional.of(/home/fzq/Android/android-ndk-r10e/toolchains/x86-4.8/prebuilt/linux-x86_64/i686-linux-android/bin/g++)'
+[2015-07-01 14:31:57.046][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:29][com.facebook.buck.io.ExecutableFinder] Executable '/home/fzq/Android/android-ndk-r10e/toolchains/x86-4.8/prebuilt/linux-x86_64/i686-linux-android/bin/ld.gold' mapped to 'Optional.of(/home/fzq/Android/android-ndk-r10e/toolchains/x86-4.8/prebuilt/linux-x86_64/i686-linux-android/bin/ld.gold)'
+[2015-07-01 14:31:57.047][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:29][com.facebook.buck.io.ExecutableFinder] Executable '/home/fzq/Android/android-ndk-r10e/toolchains/x86-4.8/prebuilt/linux-x86_64/i686-linux-android/bin/ar' mapped to 'Optional.of(/home/fzq/Android/android-ndk-r10e/toolchains/x86-4.8/prebuilt/linux-x86_64/i686-linux-android/bin/ar)'
+[2015-07-01 14:31:57.047][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:29][com.facebook.buck.io.ExecutableFinder] Executable '/home/fzq/Android/android-ndk-r10e/toolchains/x86-4.8/prebuilt/linux-x86_64/i686-linux-android/bin/objcopy' mapped to 'Optional.of(/home/fzq/Android/android-ndk-r10e/toolchains/x86-4.8/prebuilt/linux-x86_64/i686-linux-android/bin/objcopy)'
+[2015-07-01 14:31:57.048][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:29][com.facebook.buck.cxx.CxxPlatforms] Using system default C++ platform CxxPlatform{flavor=default, as=com.facebook.buck.cxx.HashedFileTool@1bebb95e, asflags=[], aspp=com.facebook.buck.cxx.HashedFileTool@721d541e, asppflags=[], cc=com.facebook.buck.cxx.HashedFileTool@5fe21a6a, cflags=[], cxx=com.facebook.buck.cxx.HashedFileTool@7dd5f1b6, cxxflags=[], cpp=com.facebook.buck.cxx.HashedFileTool@3bb2861b, cppflags=[], cxxpp=com.facebook.buck.cxx.HashedFileTool@239788d7, cxxppflags=[], cxxld=com.facebook.buck.cxx.HashedFileTool@6c69f785, cxxldflags=[], ld=com.facebook.buck.cxx.GnuLinker@3e63f3ff, ldflags=[], runtimeLdflags={}, ar=com.facebook.buck.cxx.HashedFileTool@11ce3876, arflags=[], arExpectedGlobalHeader=[33, 60, 97, 114, 99, 104, 62, 10], lex=Optional.of(com.facebook.buck.cxx.HashedFileTool@e80cba8), lexFlags=[], yacc=Optional.of(com.facebook.buck.cxx.HashedFileTool@2df6c022), yaccFlags=[-y], sharedLibraryExtension=so, debugPathSanitizer=com.facebook.buck.cxx.DebugPathSanitizer@617a184}
+[2015-07-01 14:31:57.050][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:29][com.facebook.buck.io.ExecutableFinder] Executable 'python2' mapped to 'Optional.of(/usr/bin/python2)'
+[2015-07-01 14:31:57.052][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:29][com.facebook.buck.io.ExecutableFinder] Executable 'python2' mapped to 'Optional.of(/usr/bin/python2)'
+[2015-07-01 14:31:57.054][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:29][com.facebook.buck.event.listener.SuperConsoleEventBusListener] Starting render scheduler (interval 100 ms)
+[2015-07-01 14:31:57.056][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:29][com.facebook.buck.io.ExecutableFinder] Executable 'python2' mapped to 'Optional.of(/usr/bin/python2)'
+[2015-07-01 14:31:57.059][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:29][com.facebook.buck.util.WatchmanWatcher] Starting watchman command: [watchman, --server-encoding=json, --no-pretty, -j]
+[2015-07-01 14:31:57.059][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] CommandStarted(install, isDaemon: true)
+[2015-07-01 14:31:57.061][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:29][com.facebook.buck.util.WatchmanWatcher] Writing query to Watchman: ["query","/home/fzq/workspace/DesignTest",{"since":"n:buckde83c1424-20f5-430d-a2e6-0d6adb92af02","expression":["not",["anyof",["type","d"],["match","buck-out/*","wholename"],["match",".idea/*","wholename"],["match","/home/fzq/workspace/DesignTest/.buckd/*","wholename"],["match","/home/fzq/workspace/DesignTest/buck-cache/*","wholename"],["match",".git/*","wholename"],["match","*.pbxproj","wholename"],["match","*.xcscheme","wholename"],["match","*.xcworkspacedata","wholename"]]],"empty_on_fresh_instance":true,"fields":["name","exists","new"]}]
+[2015-07-01 14:31:57.061][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:29][com.facebook.buck.util.WatchmanWatcher] Parsing JSON output from Watchman
+[2015-07-01 14:31:57.065][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:29][com.facebook.buck.parser.Parser] Parsed build files does not contain /home/fzq/workspace/DesignTest/.buckd/tmp/buck_run.yFeB1j/ngserver-out, not invalidating
+[2015-07-01 14:31:57.065][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:29][com.facebook.buck.parser.Parser] Removing targets [] for path /home/fzq/workspace/DesignTest/.buckd/tmp/buck_run.yFeB1j/ngserver-out
+[2015-07-01 14:31:57.073][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:29][com.facebook.buck.parser.Parser] Parsed build files does not contain /home/fzq/workspace/DesignTest/.buckd/buckd.runcount, not invalidating
+[2015-07-01 14:31:57.073][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:29][com.facebook.buck.parser.Parser] Removing targets [] for path /home/fzq/workspace/DesignTest/.buckd/buckd.runcount
+[2015-07-01 14:31:57.074][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:29][com.facebook.buck.util.WatchmanWatcher] Posted 2 Watchman events. Waiting for subprocess to exit...
+[2015-07-01 14:31:57.074][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:29][com.facebook.buck.util.WatchmanWatcher] Watchman exited cleanly.
+[2015-07-01 14:31:57.075][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ArtifactCacheConnectStarted()
+[2015-07-01 14:31:57.076][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ArtifactCacheConnectFinished()
+[2015-07-01 14:31:57.078][info ][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] Build started at 2015-07-01 14:31:57.058
+[2015-07-01 14:31:57.082][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:29][com.facebook.buck.parser.Parser] Parser invalidating entire cache on default include change.
+[2015-07-01 14:31:57.082][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:29][com.facebook.buck.parser.Parser] Invalidating all cached data.
+[2015-07-01 14:31:57.082][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:29][com.facebook.buck.parser.Parser] Invalidating all cached data.
+[2015-07-01 14:31:57.082][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:29][com.facebook.buck.parser.Parser] Parsing BUCK file: /home/fzq/workspace/DesignTest/app/BUCK
+[2015-07-01 14:31:57.083][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:29][com.facebook.buck.json.ProjectBuildFileParser] Creating temporary buck.py instance...
+[2015-07-01 14:31:57.083][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] BuckFilesParseStarted()
+[2015-07-01 14:31:57.255][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:29][com.facebook.buck.json.ProjectBuildFileParser] Created temporary buck.py instance at /home/fzq/workspace/DesignTest/.buckd/tmp/buck_run.yFeB1j/buck7132532198237043545.py.
+[2015-07-01 14:31:57.257][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:29][com.facebook.buck.json.ProjectBuildFileParser] Starting buck.py command: [/usr/bin/python2, -u, /home/fzq/workspace/DesignTest/.buckd/tmp/buck_run.yFeB1j/buck7132532198237043545.py, --allow_empty_globs, --project_root, /home/fzq/workspace/DesignTest, --build_file_name, BUCK] environment: {PATH=/home/fzq/Android/Sdk/platform-tools:/home/fzq/android/tools/android-studio/gradle/gradle-2.2.1/bin:/home/fzq/android/tools/apache-ant-1.9.5/bin:/home/fzq/android/tools/linuxbrew/bin:/home/fzq/Android/android-ndk-r10e:/home/fzq/android/tools/idea-IC-141.1010.3/bin:/home/fzq/bin:/usr/local/bin:/home/fzq/Android/Sdk/platform-tools:/home/fzq/android/tools/android-studio/gradle/gradle-2.2.1/bin:/home/fzq/android/tools/apache-ant-1.9.5/bin:/home/fzq/android/tools/linuxbrew/bin:/home/fzq/Android/android-ndk-r10e:/home/fzq/android/tools/idea-IC-141.1010.3/bin:/home/fzq/bin:/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/fzq/android/tools/infer-linux64-v0.1.1/infer/infer/bin:/home/fzq/android/tools/infer-linux64-v0.1.1/infer/infer/bin, LC_MEASUREMENT=zh_CN.UTF-8, XAUTHORITY=/home/fzq/.Xauthority, XMODIFIERS=@im=fcitx, LC_TELEPHONE=zh_CN.UTF-8, XDG_DATA_DIRS=/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/, GDMSESSION=ubuntu, MANDATORY_PATH=/usr/share/gconf/ubuntu.mandatory.path, LC_TIME=zh_CN.UTF-8, TEXTDOMAINDIR=/usr/share/locale/, GTK_IM_MODULE=fcitx, DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-ZuwDMUi8oz, DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path, ANDROID_HOME=/home/fzq/Android/Sdk, XDG_CURRENT_DESKTOP=Unity, LD_LIBRARY_PATH=/home/fzq/android/tools/idea-IC-141.1010.3/bin:, COLORTERM=gnome-terminal, QT4_IM_MODULE=fcitx, UPSTART_SESSION=unix:abstract=/com/ubuntu/upstart-session/1000/1797, LC_PAPER=zh_CN.UTF-8, LOGNAME=fzq, PWD=/home/fzq/workspace/DesignTest, JOB=gnome-session, IM_CONFIG_PHASE=1, LANGUAGE=en_US, WINDOWID=71303180, SHELL=/bin/zsh, LC_ADDRESS=zh_CN.UTF-8, PAGER=less, INSTANCE=Unity, ANDROID_NDK=/home/fzq/Android/android-ndk-r10e, ZSH=/home/fzq/.oh-my-zsh, GNOME_DESKTOP_SESSION_ID=this-is-deprecated, UPSTART_INSTANCE=, GTK_MODULES=overlay-scrollbar:unity-gtk-module, CLUTTER_IM_MODULE=xim, XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0, TEXTDOMAIN=im-config, LESS=-R, SESSIONTYPE=gnome-session, LC_CTYPE=en_US.UTF-8, SHLVL=2, LC_IDENTIFICATION=zh_CN.UTF-8, LC_MONETARY=zh_CN.UTF-8, NAILGUN_TTY_2=1, NAILGUN_TTY_1=1, COMPIZ_CONFIG_PROFILE=ubuntu, UPSTART_JOB=unity-settings-daemon, QT_IM_MODULE=xim, NAILGUN_TTY_0=1, TERM=xterm-256color, NAILGUN_FILESEPARATOR=/, XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg, XFILESEARCHPATH=/usr/dt/app-defaults/%L/Dt, GNOME_KEYRING_CONTROL=/run/user/1000/keyring-Vwv52h, XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0, LANG=en_US.UTF-8, XDG_SESSION_ID=c2, GRADLE_HOME=/home/fzq/android/tools/android-studio/gradle/gradle-2.2.1, SELINUX_INIT=YES, ANT_HOME=/home/fzq/android/tools/apache-ant-1.9.5, DISPLAY=:0, BREW_HOME=/home/fzq/android/tools/linuxbrew, LC_NAME=zh_CN.UTF-8, NAILGUN_PATHSEPARATOR=:, INTELLIJ_HOME=/home/fzq/android/tools/idea-IC-141.1010.3, GDM_LANG=en_US, LSCOLORS=Gxfxcxdxbxegedabagacad, XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/fzq, UPSTART_EVENTS=started starting, DESKTOP_SESSION=ubuntu, GPG_AGENT_INFO=/run/user/1000/keyring-Vwv52h/gpg:0:1, USER=fzq, VTE_VERSION=3409, LC_NUMERIC=zh_CN.UTF-8, XDG_SEAT=seat0, SSH_AUTH_SOCK=/run/user/1000/keyring-Vwv52h/ssh, NLSPATH=/usr/dt/lib/nls/msg/%L/%N.cat, QT_QPA_PLATFORMTHEME=appmenu-qt5, XDG_RUNTIME_DIR=/run/user/1000, XDG_VTNR=7, HOME=/home/fzq, GNOME_KEYRING_PID=1794}
+[2015-07-01 14:31:57.258][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:29][com.facebook.buck.json.ProjectBuildFileParser] Started process java.lang.UNIXProcess@61939eb2 successfully
+[2015-07-01 14:31:57.378][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:29][com.facebook.buck.json.ProjectBuildFileParser] Parsing output of process java.lang.UNIXProcess@61939eb2...
+[2015-07-01 14:31:57.409][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:29][com.facebook.buck.json.ProjectBuildFileParser] Parsed 9 rules from process
+[2015-07-01 14:31:57.436][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ParseStarted(//app:app)
+[2015-07-01 14:31:57.439][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:29][com.facebook.buck.parser.Parser] Parsing BUCK file: /home/fzq/workspace/DesignTest/libs/BUCK
+[2015-07-01 14:31:57.441][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:29][com.facebook.buck.json.ProjectBuildFileParser] Parsing output of process java.lang.UNIXProcess@61939eb2...
+[2015-07-01 14:31:57.443][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:29][com.facebook.buck.json.ProjectBuildFileParser] Parsed 8 rules from process
+[2015-07-01 14:31:57.463][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ParseFinished(//app:app)
+[2015-07-01 14:31:57.472][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:29][com.facebook.buck.json.ProjectBuildFileParser] Waiting for process java.lang.UNIXProcess@61939eb2 to exit...
+[2015-07-01 14:31:57.473][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:29][com.facebook.buck.json.ProjectBuildFileParser] Process java.lang.UNIXProcess@61939eb2 exited cleanly.
+[2015-07-01 14:31:57.476][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] BuckFilesParseFinished()
+[2015-07-01 14:31:57.479][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] BuildActionGraphStarted()
+[2015-07-01 14:31:57.603][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] BuildActionGraphFinished()
+[2015-07-01 14:31:57.628][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] RuleCountCalculated(//app:app)
+[2015-07-01 14:31:57.859][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.rules.CachingBuildEngine] Building locally: //app:app#gen_java_android_build_config_com_designtest_app
+[2015-07-01 14:31:57.873][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.rules.CachingBuildEngine] Building locally: //app:manifest
+[2015-07-01 14:31:57.874][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepStarted(rm)
+[2015-07-01 14:31:57.879][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepFinished(rm)
+[2015-07-01 14:31:57.879][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepStarted(mkdir)
+[2015-07-01 14:31:57.872][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.step.DefaultStepRunner] StepStarted(rm_&&_mkdir)
+[2015-07-01 14:31:57.885][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepFinished(mkdir)
+[2015-07-01 14:31:57.885][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.rules.CachingBuildEngine] Building locally: //libs:appcompat#aar_unzip
+[2015-07-01 14:31:57.885][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.step.DefaultStepRunner] StepFinished(rm_&&_mkdir)
+[2015-07-01 14:31:57.888][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepStarted(generate_manifest)
+[2015-07-01 14:31:57.889][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.step.DefaultStepRunner] StepStarted(generate_build_config)
+[2015-07-01 14:31:57.899][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.step.DefaultStepRunner] StepFinished(generate_build_config)
+[2015-07-01 14:31:57.900][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.rules.CachingBuildEngine] Build completed: android_build_config //app:app#gen_java_android_build_config_com_designtest_app (38334590ns)
+[2015-07-01 14:31:57.890][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.step.DefaultStepRunner] StepStarted(rm_&&_mkdir)
+[2015-07-01 14:31:57.901][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.step.DefaultStepRunner] StepFinished(rm_&&_mkdir)
+[2015-07-01 14:31:57.902][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.step.DefaultStepRunner] StepStarted(unzip)
+[2015-07-01 14:31:57.915][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ArtifactFetchCacheStarted(fetch:3ff93031ff032b5d93c3974ead2f074b8152f318)
+[2015-07-01 14:31:57.916][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.rules.CachingBuildEngine] Building locally: //libs:android-design#aar_unzip
+[2015-07-01 14:31:57.917][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepStarted(rm_&&_mkdir)
+[2015-07-01 14:31:57.918][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepFinished(rm_&&_mkdir)
+[2015-07-01 14:31:57.918][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepStarted(unzip)
+[2015-07-01 14:31:57.924][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.rules.CachingBuildEngine] Building locally: //libs:support-v13#aar_unzip
+[2015-07-01 14:31:57.925][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepStarted(rm_&&_mkdir)
+[2015-07-01 14:31:57.925][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepFinished(rm_&&_mkdir)
+[2015-07-01 14:31:57.926][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepStarted(unzip)
+[2015-07-01 14:31:57.927][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ArtifactFetchCacheFinished(fetch:3ff93031ff032b5d93c3974ead2f074b8152f318)
+[2015-07-01 14:31:57.934][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ArtifactFetchCacheStarted(fetch:f1e1653826be358612bc594e0ae66df19a090bdf)
+[2015-07-01 14:31:57.934][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ArtifactFetchCacheFinished(fetch:f1e1653826be358612bc594e0ae66df19a090bdf)
+[2015-07-01 14:31:57.935][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ArtifactFetchCacheStarted(fetch:01c7d371c50d5f1f60086efa4ec0757403cd2b81)
+[2015-07-01 14:31:57.935][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ArtifactFetchCacheFinished(fetch:01c7d371c50d5f1f60086efa4ec0757403cd2b81)
+[2015-07-01 14:31:57.937][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ArtifactFetchCacheStarted(fetch:572ccbd21775a2fa6a32184c06bc05be98b1dd82)
+[2015-07-01 14:31:57.937][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ArtifactFetchCacheStarted(fetch:f43bf8e4003ac815b7647a233c37db43c843dff0)
+[2015-07-01 14:31:57.938][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ArtifactFetchCacheFinished(fetch:f43bf8e4003ac815b7647a233c37db43c843dff0)
+[2015-07-01 14:31:57.938][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ArtifactFetchCacheFinished(fetch:572ccbd21775a2fa6a32184c06bc05be98b1dd82)
+[2015-07-01 14:31:57.940][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ArtifactFetchCacheStarted(fetch:3375a77bab09e7044c48bfaf711f439a68c3ad32)
+[2015-07-01 14:31:57.946][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ArtifactFetchCacheFinished(fetch:3375a77bab09e7044c48bfaf711f439a68c3ad32)
+[2015-07-01 14:31:57.943][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.rules.CachingBuildEngine] Building locally: //libs:support-v4#aar_unzip
+[2015-07-01 14:31:57.948][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.step.DefaultStepRunner] StepStarted(rm_&&_mkdir)
+[2015-07-01 14:31:57.949][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.step.DefaultStepRunner] StepFinished(rm_&&_mkdir)
+[2015-07-01 14:31:57.951][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.step.DefaultStepRunner] StepStarted(unzip)
+[2015-07-01 14:31:57.952][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ArtifactFetchCacheStarted(fetch:905a2c1610a1dfde9ec06546081faf7099868bf4)
+[2015-07-01 14:31:57.953][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ArtifactFetchCacheFinished(fetch:905a2c1610a1dfde9ec06546081faf7099868bf4)
+[2015-07-01 14:31:57.957][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ArtifactFetchCacheStarted(fetch:e5847cf81cc8938e43d2b5d671cc01710b30cbfa)
+[2015-07-01 14:31:57.957][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ArtifactFetchCacheFinished(fetch:e5847cf81cc8938e43d2b5d671cc01710b30cbfa)
+[2015-07-01 14:31:57.962][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ArtifactFetchCacheStarted(fetch:2d1f78bbffa2196501cabb203201c651beb1d6ed)
+[2015-07-01 14:31:57.966][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ArtifactFetchCacheFinished(fetch:2d1f78bbffa2196501cabb203201c651beb1d6ed)
+[2015-07-01 14:31:57.980][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ArtifactFetchCacheStarted(fetch:0e1ff0247ddc449f2e7f9c77fcb5a0fc160608d2)
+[2015-07-01 14:31:57.981][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ArtifactFetchCacheFinished(fetch:0e1ff0247ddc449f2e7f9c77fcb5a0fc160608d2)
+[2015-07-01 14:31:57.983][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ArtifactFetchCacheStarted(fetch:9cb9970aa94b9c92d945defe3d2f3104d22eaaca)
+[2015-07-01 14:31:57.983][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ArtifactFetchCacheFinished(fetch:9cb9970aa94b9c92d945defe3d2f3104d22eaaca)
+[2015-07-01 14:31:57.994][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ArtifactFetchCacheStarted(fetch:7313c292014c0cc30c648de4c57cc0724c969fa2)
+[2015-07-01 14:31:57.995][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ArtifactFetchCacheFinished(fetch:7313c292014c0cc30c648de4c57cc0724c969fa2)
+[2015-07-01 14:31:57.996][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ArtifactFetchCacheStarted(fetch:7a0188fe11c25d190fc735016ef760e0c7445bab)
+[2015-07-01 14:31:57.997][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ArtifactFetchCacheFinished(fetch:7a0188fe11c25d190fc735016ef760e0c7445bab)
+[2015-07-01 14:31:58.007][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ArtifactFetchCacheStarted(fetch:59ffcc4e36475213ff88b77486b9afb6357ad481)
+[2015-07-01 14:31:58.010][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ArtifactFetchCacheFinished(fetch:59ffcc4e36475213ff88b77486b9afb6357ad481)
+[2015-07-01 14:31:58.016][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepFinished(unzip)
+[2015-07-01 14:31:58.016][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepStarted(touch)
+[2015-07-01 14:31:58.016][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepFinished(touch)
+[2015-07-01 14:31:58.017][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepStarted(mkdir)
+[2015-07-01 14:31:58.017][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepFinished(mkdir)
+[2015-07-01 14:31:58.017][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepStarted(mkdir)
+[2015-07-01 14:31:58.018][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepFinished(mkdir)
+[2015-07-01 14:31:58.018][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepStarted(mkdir)
+[2015-07-01 14:31:58.018][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepFinished(mkdir)
+[2015-07-01 14:31:58.018][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepStarted(create_uber_classes_jar)
+[2015-07-01 14:31:58.016][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ArtifactFetchCacheStarted(fetch:efa7b42d3dc1fd37903f32b8e34b7708aef87294)
+[2015-07-01 14:31:58.023][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ArtifactFetchCacheFinished(fetch:efa7b42d3dc1fd37903f32b8e34b7708aef87294)
+[2015-07-01 14:31:58.031][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ArtifactFetchCacheStarted(fetch:1ac783442473ac82aef52c9426337a7698f8e822)
+[2015-07-01 14:31:58.048][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ArtifactFetchCacheFinished(fetch:1ac783442473ac82aef52c9426337a7698f8e822)
+[2015-07-01 14:31:58.050][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ArtifactFetchCacheStarted(fetch:23c02b9f607ed9cd9c3278f519db61c22e416068)
+[2015-07-01 14:31:58.051][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ArtifactFetchCacheFinished(fetch:23c02b9f607ed9cd9c3278f519db61c22e416068)
+[2015-07-01 14:31:58.069][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ArtifactFetchCacheStarted(fetch:f4b74222f2809217b4097ef2cfa2e955a57fab3a)
+[2015-07-01 14:31:58.085][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ArtifactFetchCacheFinished(fetch:f4b74222f2809217b4097ef2cfa2e955a57fab3a)
+[2015-07-01 14:31:58.087][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.step.DefaultStepRunner] StepFinished(unzip)
+[2015-07-01 14:31:58.087][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.step.DefaultStepRunner] StepStarted(touch)
+[2015-07-01 14:31:58.088][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.step.DefaultStepRunner] StepFinished(touch)
+[2015-07-01 14:31:58.088][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.step.DefaultStepRunner] StepStarted(mkdir)
+[2015-07-01 14:31:58.088][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.step.DefaultStepRunner] StepFinished(mkdir)
+[2015-07-01 14:31:58.089][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.step.DefaultStepRunner] StepStarted(mkdir)
+[2015-07-01 14:31:58.090][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.step.DefaultStepRunner] StepFinished(mkdir)
+[2015-07-01 14:31:58.090][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.step.DefaultStepRunner] StepStarted(mkdir)
+[2015-07-01 14:31:58.089][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ArtifactFetchCacheStarted(fetch:06a766fcb71182be1e7b5dd999c5e4b61b0c470d)
+[2015-07-01 14:31:58.091][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ArtifactFetchCacheFinished(fetch:06a766fcb71182be1e7b5dd999c5e4b61b0c470d)
+[2015-07-01 14:31:58.091][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.step.DefaultStepRunner] StepFinished(mkdir)
+[2015-07-01 14:31:58.092][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.step.DefaultStepRunner] StepStarted(create_uber_classes_jar)
+[2015-07-01 14:31:58.093][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ArtifactFetchCacheStarted(fetch:42f9c3ee149605b2f10df0ae5fdad718d2060c38)
+[2015-07-01 14:31:58.093][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ArtifactFetchCacheFinished(fetch:42f9c3ee149605b2f10df0ae5fdad718d2060c38)
+[2015-07-01 14:31:58.094][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ArtifactFetchCacheStarted(fetch:b40325edc485c8aa227073c3b74d634062bc6ef4)
+[2015-07-01 14:31:58.095][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ArtifactFetchCacheFinished(fetch:b40325edc485c8aa227073c3b74d634062bc6ef4)
+[2015-07-01 14:31:58.096][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ArtifactFetchCacheStarted(fetch:9dfa4f8efdeb120162a32227d91cc843e722016a)
+[2015-07-01 14:31:58.096][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ArtifactFetchCacheFinished(fetch:9dfa4f8efdeb120162a32227d91cc843e722016a)
+[2015-07-01 14:31:58.103][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ArtifactFetchCacheStarted(fetch:27127f6c7f1d1fd1ceeab9b091e4f0f12a19b721)
+[2015-07-01 14:31:58.107][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ArtifactFetchCacheFinished(fetch:27127f6c7f1d1fd1ceeab9b091e4f0f12a19b721)
+[2015-07-01 14:31:58.108][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ArtifactFetchCacheStarted(fetch:2c3f4723ad204505afd52077e45e96039668a5b4)
+[2015-07-01 14:31:58.109][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ArtifactFetchCacheFinished(fetch:2c3f4723ad204505afd52077e45e96039668a5b4)
+[2015-07-01 14:31:58.114][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ArtifactFetchCacheStarted(fetch:85e0f6641b54ac97114ea08de0d384a0ab2a9a34)
+[2015-07-01 14:31:58.115][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ArtifactFetchCacheFinished(fetch:85e0f6641b54ac97114ea08de0d384a0ab2a9a34)
+[2015-07-01 14:31:58.116][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepFinished(unzip)
+[2015-07-01 14:31:58.117][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepStarted(touch)
+[2015-07-01 14:31:58.118][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepFinished(touch)
+[2015-07-01 14:31:58.118][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepStarted(mkdir)
+[2015-07-01 14:31:58.119][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepFinished(mkdir)
+[2015-07-01 14:31:58.120][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepStarted(mkdir)
+[2015-07-01 14:31:58.120][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepFinished(mkdir)
+[2015-07-01 14:31:58.121][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepStarted(mkdir)
+[2015-07-01 14:31:58.121][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepFinished(mkdir)
+[2015-07-01 14:31:58.121][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepStarted(create_uber_classes_jar)
+[2015-07-01 14:31:58.124][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepFinished(create_uber_classes_jar)
+[2015-07-01 14:31:58.124][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.rules.CachingBuildEngine] Build completed: unzip_aar //libs:android-design#aar_unzip (207106814ns)
+[2015-07-01 14:31:58.160][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] Duplicate found when adding file to jar: META-INF/
+[2015-07-01 14:31:58.160][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] Duplicate found when adding file to jar: android/
+[2015-07-01 14:31:58.161][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] Duplicate found when adding file to jar: android/support/
+[2015-07-01 14:31:58.161][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] Duplicate found when adding file to jar: android/support/v13/
+[2015-07-01 14:31:58.165][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] Duplicate found when adding file to jar: android/support/v13/app/
+[2015-07-01 14:31:58.161][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepFinished(create_uber_classes_jar)
+[2015-07-01 14:31:58.166][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.rules.CachingBuildEngine] Build completed: unzip_aar //libs:support-v13#aar_unzip (241387471ns)
+[2015-07-01 14:31:58.184][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.rules.CachingBuildEngine] Building locally: //app:res
+[2015-07-01 14:31:58.187][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ArtifactFetchCacheStarted(fetch:e0858167e78ad019414e8ec4b70cf49cf738cd3d)
+[2015-07-01 14:31:58.187][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ArtifactFetchCacheFinished(fetch:e0858167e78ad019414e8ec4b70cf49cf738cd3d)
+[2015-07-01 14:31:58.188][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ArtifactFetchCacheStarted(fetch:84322e189e194ea26f5757928da763735d145b2d)
+[2015-07-01 14:31:58.188][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ArtifactFetchCacheFinished(fetch:84322e189e194ea26f5757928da763735d145b2d)
+[2015-07-01 14:31:58.190][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ArtifactFetchCacheStarted(fetch:9e613e4f05789da06a0cf5c703ccda87358ec59a)
+[2015-07-01 14:31:58.190][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ArtifactFetchCacheFinished(fetch:9e613e4f05789da06a0cf5c703ccda87358ec59a)
+[2015-07-01 14:31:58.200][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ArtifactFetchCacheStarted(fetch:ac7100fd3e202bee1604ee66aa36c80b12cbb6af)
+[2015-07-01 14:31:58.200][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ArtifactFetchCacheFinished(fetch:ac7100fd3e202bee1604ee66aa36c80b12cbb6af)
+[2015-07-01 14:31:58.205][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepStarted(rm_&&_mkdir)
+[2015-07-01 14:31:58.206][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ArtifactFetchCacheStarted(fetch:28e61f0ceeaedab7ba270da237db8991a8508998)
+[2015-07-01 14:31:58.208][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ArtifactFetchCacheFinished(fetch:28e61f0ceeaedab7ba270da237db8991a8508998)
+[2015-07-01 14:31:58.209][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepFinished(rm_&&_mkdir)
+[2015-07-01 14:31:58.226][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ArtifactFetchCacheStarted(fetch:07a09fa69a60b49611c1228789226f95b5b23948)
+[2015-07-01 14:31:58.227][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ArtifactFetchCacheFinished(fetch:07a09fa69a60b49611c1228789226f95b5b23948)
+[2015-07-01 14:31:58.229][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ArtifactFetchCacheStarted(fetch:d21645a60a78f8c3e130ee2e9feffef22ac6d3d7)
+[2015-07-01 14:31:58.229][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ArtifactFetchCacheFinished(fetch:d21645a60a78f8c3e130ee2e9feffef22ac6d3d7)
+[2015-07-01 14:31:58.235][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ArtifactFetchCacheStarted(fetch:4c2c7e7b45ab6af096c128b4ff9e98d2bd5687fb)
+[2015-07-01 14:31:58.236][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ArtifactFetchCacheFinished(fetch:4c2c7e7b45ab6af096c128b4ff9e98d2bd5687fb)
+[2015-07-01 14:31:58.237][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ArtifactFetchCacheStarted(fetch:17a0875bdfed597d1a984cc81339826dbd7e5577)
+[2015-07-01 14:31:58.237][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ArtifactFetchCacheFinished(fetch:17a0875bdfed597d1a984cc81339826dbd7e5577)
+[2015-07-01 14:31:58.238][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ArtifactFetchCacheStarted(fetch:a332af399397b971f3c7ef96344e2859f10ce8a0)
+[2015-07-01 14:31:58.238][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ArtifactFetchCacheFinished(fetch:a332af399397b971f3c7ef96344e2859f10ce8a0)
+[2015-07-01 14:31:58.238][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ArtifactFetchCacheStarted(fetch:439c1cd247a4acb426f9c6c2cce782e619614bf8)
+[2015-07-01 14:31:58.239][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ArtifactFetchCacheFinished(fetch:439c1cd247a4acb426f9c6c2cce782e619614bf8)
+[2015-07-01 14:31:58.230][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.rules.CachingBuildEngine] Building locally: //app:debug_keystore
+[2015-07-01 14:31:58.230][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepStarted(generate_resource_ids)
+[2015-07-01 14:31:58.239][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.rules.CachingBuildEngine] Build completed: keystore //app:debug_keystore (27970ns)
+[2015-07-01 14:31:58.244][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ArtifactFetchCacheStarted(fetch:d44b7661cd30aa5cd1cc2d92c5a8c14dc4d3ac28)
+[2015-07-01 14:31:58.244][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ArtifactFetchCacheFinished(fetch:d44b7661cd30aa5cd1cc2d92c5a8c14dc4d3ac28)
+[2015-07-01 14:31:58.245][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ArtifactFetchCacheStarted(fetch:ce3561909b7151357a9ea010f21fc2c398ffe39b)
+[2015-07-01 14:31:58.246][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ArtifactFetchCacheFinished(fetch:ce3561909b7151357a9ea010f21fc2c398ffe39b)
+[2015-07-01 14:31:58.246][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ArtifactFetchCacheStarted(fetch:d599bfd7d50d512ad45d44394a30d89b9f7c585a)
+[2015-07-01 14:31:58.247][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ArtifactFetchCacheFinished(fetch:d599bfd7d50d512ad45d44394a30d89b9f7c585a)
+[2015-07-01 14:31:58.256][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.rules.CachingBuildEngine] Building locally: //libs:jars__buck-android-support.jar
+[2015-07-01 14:31:58.257][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ArtifactFetchCacheStarted(fetch:234f6d818fca39d156776c98508a552fa37bce2c)
+[2015-07-01 14:31:58.257][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ArtifactFetchCacheFinished(fetch:234f6d818fca39d156776c98508a552fa37bce2c)
+[2015-07-01 14:31:58.269][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepStarted(mkdir)
+[2015-07-01 14:31:58.274][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepFinished(mkdir)
+[2015-07-01 14:31:58.275][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepStarted(cp)
+[2015-07-01 14:31:58.276][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepFinished(cp)
+[2015-07-01 14:31:58.276][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepStarted(mkdir)
+[2015-07-01 14:31:58.277][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepFinished(mkdir)
+[2015-07-01 14:31:58.277][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepStarted(rm)
+[2015-07-01 14:31:58.277][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepFinished(rm)
+[2015-07-01 14:31:58.278][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepStarted(calculate_abi)
+[2015-07-01 14:31:58.481][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepFinished(generate_manifest)
+[2015-07-01 14:31:58.482][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.rules.CachingBuildEngine] Build completed: android_manifest //app:manifest (609207336ns)
+[2015-07-01 14:31:58.485][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.rules.CachingBuildEngine] Building locally: //app:app#buildconfig_com_designtest_app
+[2015-07-01 14:31:58.501][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepFinished(calculate_abi)
+[2015-07-01 14:31:58.501][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepStarted(mkdir)
+[2015-07-01 14:31:58.502][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepFinished(mkdir)
+[2015-07-01 14:31:58.502][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepStarted(get_class_names)
+[2015-07-01 14:31:58.520][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepFinished(generate_resource_ids)
+[2015-07-01 14:31:58.521][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepStarted(record_file_sha1)
+[2015-07-01 14:31:58.522][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepFinished(record_file_sha1)
+[2015-07-01 14:31:58.523][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.rules.CachingBuildEngine] Build completed: android_resource //app:res (338407451ns)
+[2015-07-01 14:31:58.535][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepStarted(rm_&&_mkdir)
+[2015-07-01 14:31:58.535][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepFinished(rm_&&_mkdir)
+[2015-07-01 14:31:58.536][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepStarted(rm_&&_mkdir)
+[2015-07-01 14:31:58.536][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepFinished(rm_&&_mkdir)
+[2015-07-01 14:31:58.536][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepStarted(mkdir)
+[2015-07-01 14:31:58.537][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepFinished(mkdir)
+[2015-07-01 14:31:58.537][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepStarted(javac)
+[2015-07-01 14:31:58.539][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.rules.CachingBuildEngine] Building locally: //libs:android-design#aar_android_resource
+[2015-07-01 14:31:58.541][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepFinished(get_class_names)
+[2015-07-01 14:31:58.541][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.rules.CachingBuildEngine] Build completed: prebuilt_jar //libs:jars__buck-android-support.jar (284941974ns)
+[2015-07-01 14:31:58.542][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepStarted(rm_&&_mkdir)
+[2015-07-01 14:31:58.548][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepFinished(rm_&&_mkdir)
+[2015-07-01 14:31:58.548][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepStarted(extract_android_package)
+[2015-07-01 14:31:58.573][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepFinished(extract_android_package)
+[2015-07-01 14:31:58.573][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.rules.CachingBuildEngine] Building locally: //libs:android-design#aar_prebuilt_jar
+[2015-07-01 14:31:58.574][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepStarted(mkdir)
+[2015-07-01 14:31:58.574][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepFinished(mkdir)
+[2015-07-01 14:31:58.575][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepStarted(cp)
+[2015-07-01 14:31:58.576][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepFinished(cp)
+[2015-07-01 14:31:58.577][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepStarted(mkdir)
+[2015-07-01 14:31:58.577][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepFinished(mkdir)
+[2015-07-01 14:31:58.577][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepStarted(rm)
+[2015-07-01 14:31:58.577][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepFinished(rm)
+[2015-07-01 14:31:58.578][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepStarted(calculate_abi)
+[2015-07-01 14:31:58.574][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepStarted(generate_resource_ids)
+[2015-07-01 14:31:58.811][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepFinished(calculate_abi)
+[2015-07-01 14:31:58.816][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepStarted(mkdir)
+[2015-07-01 14:31:58.819][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepFinished(mkdir)
+[2015-07-01 14:31:58.821][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepStarted(get_class_names)
+[2015-07-01 14:31:58.883][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepFinished(generate_resource_ids)
+[2015-07-01 14:31:58.884][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepStarted(record_file_sha1)
+[2015-07-01 14:31:58.885][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepFinished(get_class_names)
+[2015-07-01 14:31:58.885][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.rules.CachingBuildEngine] Build completed: prebuilt_jar //libs:android-design#aar_prebuilt_jar (311560455ns)
+[2015-07-01 14:31:58.887][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepFinished(record_file_sha1)
+[2015-07-01 14:31:58.891][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.step.DefaultStepRunner] StepFinished(unzip)
+[2015-07-01 14:31:58.892][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.rules.CachingBuildEngine] Build completed: android_resource //libs:android-design#aar_android_resource (351923862ns)
+[2015-07-01 14:31:58.895][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.step.DefaultStepRunner] StepStarted(touch)
+[2015-07-01 14:31:58.896][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.step.DefaultStepRunner] StepFinished(touch)
+[2015-07-01 14:31:58.897][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.step.DefaultStepRunner] StepStarted(mkdir)
+[2015-07-01 14:31:58.897][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.step.DefaultStepRunner] StepFinished(mkdir)
+[2015-07-01 14:31:58.900][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.step.DefaultStepRunner] StepStarted(mkdir)
+[2015-07-01 14:31:58.900][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.step.DefaultStepRunner] StepFinished(mkdir)
+[2015-07-01 14:31:58.901][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.step.DefaultStepRunner] StepStarted(mkdir)
+[2015-07-01 14:31:58.901][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.step.DefaultStepRunner] StepFinished(mkdir)
+[2015-07-01 14:31:58.901][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.step.DefaultStepRunner] StepStarted(create_uber_classes_jar)
+[2015-07-01 14:31:58.905][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.step.DefaultStepRunner] StepFinished(create_uber_classes_jar)
+[2015-07-01 14:31:58.908][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.rules.CachingBuildEngine] Build completed: unzip_aar //libs:appcompat#aar_unzip (1022190452ns)
+[2015-07-01 14:31:58.913][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.rules.CachingBuildEngine] Building locally: //libs:support-v13#aar_android_resource
+[2015-07-01 14:31:58.914][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepStarted(rm_&&_mkdir)
+[2015-07-01 14:31:58.914][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepFinished(rm_&&_mkdir)
+[2015-07-01 14:31:58.915][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.rules.CachingBuildEngine] Building locally: //libs:support-v13#aar_prebuilt_jar
+[2015-07-01 14:31:58.915][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepStarted(mkdir)
+[2015-07-01 14:31:58.915][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepFinished(mkdir)
+[2015-07-01 14:31:58.915][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepStarted(cp)
+[2015-07-01 14:31:58.916][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepStarted(extract_android_package)
+[2015-07-01 14:31:58.916][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepFinished(cp)
+[2015-07-01 14:31:58.916][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepStarted(mkdir)
+[2015-07-01 14:31:58.916][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepFinished(mkdir)
+[2015-07-01 14:31:58.917][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepStarted(rm)
+[2015-07-01 14:31:58.917][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepFinished(rm)
+[2015-07-01 14:31:58.917][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepStarted(calculate_abi)
+[2015-07-01 14:31:58.920][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepFinished(extract_android_package)
+[2015-07-01 14:31:58.920][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepStarted(generate_resource_ids)
+[2015-07-01 14:31:58.921][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepFinished(generate_resource_ids)
+[2015-07-01 14:31:58.922][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepStarted(record_file_sha1)
+[2015-07-01 14:31:58.922][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepFinished(record_file_sha1)
+[2015-07-01 14:31:58.923][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.rules.CachingBuildEngine] Build completed: android_resource //libs:support-v13#aar_android_resource (9417521ns)
+[2015-07-01 14:31:58.928][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ArtifactFetchCacheStarted(fetch:42a1182d6a72303f9ec61b82644b389a0888b3c1)
+[2015-07-01 14:31:58.928][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ArtifactFetchCacheFinished(fetch:42a1182d6a72303f9ec61b82644b389a0888b3c1)
+[2015-07-01 14:31:58.930][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ArtifactFetchCacheStarted(fetch:49ecbf4e831d1e9354506f7882c458a19c7a3521)
+[2015-07-01 14:31:58.931][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] ArtifactFetchCacheFinished(fetch:49ecbf4e831d1e9354506f7882c458a19c7a3521)
+[2015-07-01 14:31:58.932][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.rules.CachingBuildEngine] Building locally: //app:application-lib#dummy_r_dot_java
+[2015-07-01 14:31:58.936][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepStarted(rm_&&_mkdir)
+[2015-07-01 14:31:58.936][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepFinished(calculate_abi)
+[2015-07-01 14:31:58.937][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepStarted(mkdir)
+[2015-07-01 14:31:58.937][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepFinished(rm_&&_mkdir)
+[2015-07-01 14:31:58.937][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepFinished(mkdir)
+[2015-07-01 14:31:58.937][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepStarted(get_class_names)
+[2015-07-01 14:31:58.937][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepStarted(android-res-merge)
+[2015-07-01 14:31:58.940][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepFinished(get_class_names)
+[2015-07-01 14:31:58.940][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.rules.CachingBuildEngine] Build completed: prebuilt_jar //libs:support-v13#aar_prebuilt_jar (25595391ns)
+[2015-07-01 14:31:58.945][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.rules.CachingBuildEngine] Building locally: //app:src#dummy_r_dot_java
+[2015-07-01 14:31:58.945][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepStarted(rm_&&_mkdir)
+[2015-07-01 14:31:58.946][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepFinished(android-res-merge)
+[2015-07-01 14:31:58.946][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepFinished(rm_&&_mkdir)
+[2015-07-01 14:31:58.946][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepStarted(android-res-merge)
+[2015-07-01 14:31:58.946][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepStarted(rm_&&_mkdir)
+[2015-07-01 14:31:58.947][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepFinished(rm_&&_mkdir)
+[2015-07-01 14:31:58.948][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepStarted(rm_&&_mkdir)
+[2015-07-01 14:31:58.949][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepFinished(rm_&&_mkdir)
+[2015-07-01 14:31:58.950][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepStarted(javac)
+[2015-07-01 14:31:58.955][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepFinished(android-res-merge)
+[2015-07-01 14:31:58.956][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepStarted(rm_&&_mkdir)
+[2015-07-01 14:31:58.956][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepFinished(rm_&&_mkdir)
+[2015-07-01 14:31:58.960][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepStarted(rm_&&_mkdir)
+[2015-07-01 14:31:58.961][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepFinished(rm_&&_mkdir)
+[2015-07-01 14:31:58.961][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepStarted(javac)
+[2015-07-01 14:31:59.087][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.rules.CachingBuildEngine] Building locally: //libs:jars__buck-android-support.jar#dex
+[2015-07-01 14:31:59.103][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.step.DefaultStepRunner] StepStarted(rm)
+[2015-07-01 14:31:59.109][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.step.DefaultStepRunner] StepFinished(rm)
+[2015-07-01 14:31:59.115][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.step.DefaultStepRunner] StepStarted(mkdir)
+[2015-07-01 14:31:59.115][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.step.DefaultStepRunner] StepFinished(mkdir)
+[2015-07-01 14:31:59.115][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.step.DefaultStepRunner] StepStarted(estimate_linear_alloc)
+[2015-07-01 14:31:59.116][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.step.DefaultStepRunner] StepFinished(estimate_linear_alloc)
+[2015-07-01 14:31:59.117][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] Duplicate found when adding file to jar: META-INF/
+[2015-07-01 14:31:59.117][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] Duplicate found when adding file to jar: android/
+[2015-07-01 14:31:59.117][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] Duplicate found when adding file to jar: android/support/
+[2015-07-01 14:31:59.117][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] Duplicate found when adding file to jar: android/support/v4/
+[2015-07-01 14:31:59.117][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] Duplicate found when adding file to jar: android/support/v4/view/
+[2015-07-01 14:31:59.119][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] Duplicate found when adding file to jar: android/support/v4/view/animation/
+[2015-07-01 14:31:59.123][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] Duplicate found when adding file to jar: android/support/v4/animation/
+[2015-07-01 14:31:59.124][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] Duplicate found when adding file to jar: android/support/v4/app/
+[2015-07-01 14:31:59.128][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] Duplicate found when adding file to jar: android/support/v4/graphics/
+[2015-07-01 14:31:59.128][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] Duplicate found when adding file to jar: android/support/v4/graphics/drawable/
+[2015-07-01 14:31:59.130][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.shell.ShellStep] Command: /home/fzq/android/tools/buck/third-party/java/dx-from-kitkat/etc/dx --dex --no-optimize --force-jumbo --output /home/fzq/workspace/DesignTest/buck-out/gen/libs/jars__buck-android-support.jar#dex.dex.jar /home/fzq/workspace/DesignTest/buck-out/gen/libs/jars__buck-android-support.jar.jar
+[2015-07-01 14:31:59.131][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.step.DefaultStepRunner] StepStarted(dx)
+[2015-07-01 14:31:59.134][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] Duplicate found when adding file to jar: android/support/v4/media/
+[2015-07-01 14:31:59.135][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] Duplicate found when adding file to jar: android/support/v4/media/session/
+[2015-07-01 14:31:59.135][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] Duplicate found when adding file to jar: android/support/v4/content/
+[2015-07-01 14:31:59.135][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] Duplicate found when adding file to jar: android/support/v4/net/
+[2015-07-01 14:31:59.135][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] Duplicate found when adding file to jar: android/support/v4/widget/
+[2015-07-01 14:31:59.147][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] Duplicate found when adding file to jar: android/support/v4/os/
+[2015-07-01 14:31:59.157][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] Duplicate found when adding file to jar: android/support/v4/view/accessibility/
+[2015-07-01 14:31:59.161][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] Duplicate found when adding file to jar: android/support/v4/accessibilityservice/
+[2015-07-01 14:31:59.163][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] Duplicate found when adding file to jar: android/support/v4/text/
+[2015-07-01 14:31:59.165][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] Duplicate found when adding file to jar: android/support/v4/content/res/
+[2015-07-01 14:31:59.197][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] Duplicate found when adding file to jar: android/support/v4/hardware/
+[2015-07-01 14:31:59.198][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] Duplicate found when adding file to jar: android/support/v4/hardware/display/
+[2015-07-01 14:31:59.208][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] Duplicate found when adding file to jar: android/support/v4/print/
+[2015-07-01 14:31:59.213][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] Duplicate found when adding file to jar: android/support/v4/provider/
+[2015-07-01 14:31:59.278][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.step.DefaultStepRunner] StepFinished(create_uber_classes_jar)
+[2015-07-01 14:31:59.279][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.rules.CachingBuildEngine] Build completed: unzip_aar //libs:support-v4#aar_unzip (1331039584ns)
+[2015-07-01 14:31:59.299][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.rules.CachingBuildEngine] Building locally: //libs:android-design#aar_prebuilt_jar,dex
+[2015-07-01 14:31:59.317][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.step.DefaultStepRunner] StepStarted(rm)
+[2015-07-01 14:31:59.318][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.step.DefaultStepRunner] StepFinished(rm)
+[2015-07-01 14:31:59.322][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.step.DefaultStepRunner] StepStarted(mkdir)
+[2015-07-01 14:31:59.323][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.step.DefaultStepRunner] StepFinished(mkdir)
+[2015-07-01 14:31:59.324][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.step.DefaultStepRunner] StepStarted(estimate_linear_alloc)
+[2015-07-01 14:31:59.326][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.step.DefaultStepRunner] StepFinished(estimate_linear_alloc)
+[2015-07-01 14:31:59.330][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.shell.ShellStep] Command: /home/fzq/android/tools/buck/third-party/java/dx-from-kitkat/etc/dx --dex --no-optimize --force-jumbo --output /home/fzq/workspace/DesignTest/buck-out/gen/libs/android-design#aar_prebuilt_jar,dex.dex.jar /home/fzq/workspace/DesignTest/buck-out/gen/libs/android-design#aar_prebuilt_jar.jar
+[2015-07-01 14:31:59.330][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.step.DefaultStepRunner] StepStarted(dx)
+[2015-07-01 14:32:00.009][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepFinished(javac)
+[2015-07-01 14:32:00.009][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepStarted(copy_resources)
+[2015-07-01 14:32:00.010][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepFinished(copy_resources)
+[2015-07-01 14:32:00.010][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepStarted(rm_&&_mkdir)
+[2015-07-01 14:32:00.011][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepFinished(rm_&&_mkdir)
+[2015-07-01 14:32:00.012][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepStarted(mkdir)
+[2015-07-01 14:32:00.013][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepFinished(mkdir)
+[2015-07-01 14:32:00.014][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepStarted(jar)
+[2015-07-01 14:32:00.034][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepFinished(javac)
+[2015-07-01 14:32:00.035][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepStarted(calculate_abi)
+[2015-07-01 14:32:00.040][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepFinished(calculate_abi)
+[2015-07-01 14:32:00.040][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.rules.CachingBuildEngine] Build completed: dummy_r_dot_java //app:src#dummy_r_dot_java (1095476977ns)
+[2015-07-01 14:32:00.047][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepFinished(jar)
+[2015-07-01 14:32:00.047][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepStarted(calculate_abi)
+[2015-07-01 14:32:00.049][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepFinished(calculate_abi)
+[2015-07-01 14:32:00.049][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepStarted(mkdir)
+[2015-07-01 14:32:00.049][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepFinished(mkdir)
+[2015-07-01 14:32:00.050][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepStarted(get_class_names)
+[2015-07-01 14:32:00.051][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.rules.CachingBuildEngine] Building locally: //libs:appcompat#aar_android_resource
+[2015-07-01 14:32:00.051][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepFinished(get_class_names)
+[2015-07-01 14:32:00.052][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.rules.CachingBuildEngine] Build completed: android_build_config_java_library //app:app#buildconfig_com_designtest_app (1566540707ns)
+[2015-07-01 14:32:00.051][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepStarted(rm_&&_mkdir)
+[2015-07-01 14:32:00.053][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepFinished(rm_&&_mkdir)
+[2015-07-01 14:32:00.053][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepStarted(extract_android_package)
+[2015-07-01 14:32:00.057][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepFinished(javac)
+[2015-07-01 14:32:00.059][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.rules.CachingBuildEngine] Building locally: //libs:appcompat#aar_prebuilt_jar
+[2015-07-01 14:32:00.060][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepStarted(mkdir)
+[2015-07-01 14:32:00.060][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepFinished(mkdir)
+[2015-07-01 14:32:00.060][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepStarted(cp)
+[2015-07-01 14:32:00.062][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepFinished(cp)
+[2015-07-01 14:32:00.062][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepStarted(mkdir)
+[2015-07-01 14:32:00.062][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepFinished(mkdir)
+[2015-07-01 14:32:00.063][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepStarted(rm)
+[2015-07-01 14:32:00.063][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepFinished(rm)
+[2015-07-01 14:32:00.063][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepStarted(calculate_abi)
+[2015-07-01 14:32:00.064][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepFinished(extract_android_package)
+[2015-07-01 14:32:00.064][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepStarted(generate_resource_ids)
+[2015-07-01 14:32:00.065][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepStarted(calculate_abi)
+[2015-07-01 14:32:00.069][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepFinished(calculate_abi)
+[2015-07-01 14:32:00.076][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.rules.CachingBuildEngine] Build completed: dummy_r_dot_java //app:application-lib#dummy_r_dot_java (1143245664ns)
+[2015-07-01 14:32:00.103][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.rules.CachingBuildEngine] Building locally: //libs:android-design
+[2015-07-01 14:32:00.130][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepStarted(rm_&&_mkdir)
+[2015-07-01 14:32:00.142][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepFinished(rm_&&_mkdir)
+[2015-07-01 14:32:00.143][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepStarted(rm_&&_mkdir)
+[2015-07-01 14:32:00.143][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepFinished(rm_&&_mkdir)
+[2015-07-01 14:32:00.144][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepStarted(copy_resources)
+[2015-07-01 14:32:00.144][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepFinished(copy_resources)
+[2015-07-01 14:32:00.144][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepStarted(rm_&&_mkdir)
+[2015-07-01 14:32:00.145][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepFinished(rm_&&_mkdir)
+[2015-07-01 14:32:00.139][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.step.DefaultStepRunner] StepFinished(dx)
+[2015-07-01 14:32:00.147][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepStarted(mkdir)
+[2015-07-01 14:32:00.153][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepFinished(mkdir)
+[2015-07-01 14:32:00.154][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepStarted(rm_&&_mkdir)
+[2015-07-01 14:32:00.154][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepFinished(rm_&&_mkdir)
+[2015-07-01 14:32:00.154][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepStarted(touch)
+[2015-07-01 14:32:00.155][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepFinished(touch)
+[2015-07-01 14:32:00.155][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepStarted(calculate_abi)
+[2015-07-01 14:32:00.156][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepFinished(calculate_abi)
+[2015-07-01 14:32:00.156][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepStarted(mkdir)
+[2015-07-01 14:32:00.157][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepFinished(mkdir)
+[2015-07-01 14:32:00.153][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.step.DefaultStepRunner] StepStarted(record_dx_success)
+[2015-07-01 14:32:00.161][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepStarted(get_class_names)
+[2015-07-01 14:32:00.161][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepFinished(get_class_names)
+[2015-07-01 14:32:00.162][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.rules.CachingBuildEngine] Build completed: android_prebuilt_aar //libs:android-design (58639385ns)
+[2015-07-01 14:32:00.184][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.rules.CachingBuildEngine] Building locally: //app:build-config#gen_java_android_build_config
+[2015-07-01 14:32:00.184][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepStarted(rm_&&_mkdir)
+[2015-07-01 14:32:00.185][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepFinished(rm_&&_mkdir)
+[2015-07-01 14:32:00.185][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepStarted(generate_build_config)
+[2015-07-01 14:32:00.186][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepFinished(generate_build_config)
+[2015-07-01 14:32:00.186][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.rules.CachingBuildEngine] Build completed: android_build_config //app:build-config#gen_java_android_build_config (2025853ns)
+[2015-07-01 14:32:00.189][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.rules.CachingBuildEngine] Building locally: //libs:support-v13
+[2015-07-01 14:32:00.192][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepStarted(rm_&&_mkdir)
+[2015-07-01 14:32:00.194][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepFinished(rm_&&_mkdir)
+[2015-07-01 14:32:00.194][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepStarted(rm_&&_mkdir)
+[2015-07-01 14:32:00.196][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepFinished(rm_&&_mkdir)
+[2015-07-01 14:32:00.196][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepStarted(copy_resources)
+[2015-07-01 14:32:00.197][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepFinished(copy_resources)
+[2015-07-01 14:32:00.198][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepStarted(rm_&&_mkdir)
+[2015-07-01 14:32:00.198][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepFinished(rm_&&_mkdir)
+[2015-07-01 14:32:00.202][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepStarted(mkdir)
+[2015-07-01 14:32:00.203][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepFinished(mkdir)
+[2015-07-01 14:32:00.203][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepStarted(rm_&&_mkdir)
+[2015-07-01 14:32:00.204][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepFinished(rm_&&_mkdir)
+[2015-07-01 14:32:00.204][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepStarted(touch)
+[2015-07-01 14:32:00.205][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepFinished(touch)
+[2015-07-01 14:32:00.205][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepStarted(calculate_abi)
+[2015-07-01 14:32:00.206][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepFinished(calculate_abi)
+[2015-07-01 14:32:00.213][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.step.DefaultStepRunner] StepFinished(record_dx_success)
+[2015-07-01 14:32:00.213][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.rules.CachingBuildEngine] Build completed: dex_produced_from_java_library //libs:jars__buck-android-support.jar#dex (1125537197ns)
+[2015-07-01 14:32:00.214][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepStarted(mkdir)
+[2015-07-01 14:32:00.214][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepFinished(mkdir)
+[2015-07-01 14:32:00.214][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepStarted(get_class_names)
+[2015-07-01 14:32:00.215][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepFinished(get_class_names)
+[2015-07-01 14:32:00.215][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.rules.CachingBuildEngine] Build completed: android_prebuilt_aar //libs:support-v13 (25896935ns)
+[2015-07-01 14:32:00.220][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.rules.CachingBuildEngine] Building locally: //libs:support-v13#aar_prebuilt_jar,dex
+[2015-07-01 14:32:00.221][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepStarted(rm)
+[2015-07-01 14:32:00.222][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepFinished(rm)
+[2015-07-01 14:32:00.224][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepStarted(mkdir)
+[2015-07-01 14:32:00.224][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepFinished(mkdir)
+[2015-07-01 14:32:00.225][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepStarted(estimate_linear_alloc)
+[2015-07-01 14:32:00.226][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepFinished(estimate_linear_alloc)
+[2015-07-01 14:32:00.234][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.shell.ShellStep] Command: /home/fzq/android/tools/buck/third-party/java/dx-from-kitkat/etc/dx --dex --no-optimize --force-jumbo --output /home/fzq/workspace/DesignTest/buck-out/gen/libs/support-v13#aar_prebuilt_jar,dex.dex.jar /home/fzq/workspace/DesignTest/buck-out/gen/libs/support-v13#aar_prebuilt_jar.jar
+[2015-07-01 14:32:00.234][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepStarted(dx)
+[2015-07-01 14:32:00.286][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.rules.CachingBuildEngine] Building locally: //libs:support-v4#aar_android_resource
+[2015-07-01 14:32:00.286][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.step.DefaultStepRunner] StepStarted(rm_&&_mkdir)
+[2015-07-01 14:32:00.287][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.step.DefaultStepRunner] StepFinished(rm_&&_mkdir)
+[2015-07-01 14:32:00.287][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.step.DefaultStepRunner] StepStarted(extract_android_package)
+[2015-07-01 14:32:00.298][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.step.DefaultStepRunner] StepFinished(extract_android_package)
+[2015-07-01 14:32:00.298][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.step.DefaultStepRunner] StepStarted(generate_resource_ids)
+[2015-07-01 14:32:00.299][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.step.DefaultStepRunner] StepFinished(generate_resource_ids)
+[2015-07-01 14:32:00.299][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.step.DefaultStepRunner] StepStarted(record_file_sha1)
+[2015-07-01 14:32:00.306][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.step.DefaultStepRunner] StepFinished(record_file_sha1)
+[2015-07-01 14:32:00.306][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.rules.CachingBuildEngine] Build completed: android_resource //libs:support-v4#aar_android_resource (20059364ns)
+[2015-07-01 14:32:00.310][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.rules.CachingBuildEngine] Building locally: //libs:support-v4#aar_prebuilt_jar
+[2015-07-01 14:32:00.310][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.step.DefaultStepRunner] StepStarted(mkdir)
+[2015-07-01 14:32:00.310][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.step.DefaultStepRunner] StepFinished(mkdir)
+[2015-07-01 14:32:00.311][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.step.DefaultStepRunner] StepStarted(cp)
+[2015-07-01 14:32:00.323][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.step.DefaultStepRunner] StepFinished(cp)
+[2015-07-01 14:32:00.323][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.step.DefaultStepRunner] StepStarted(mkdir)
+[2015-07-01 14:32:00.325][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.step.DefaultStepRunner] StepFinished(mkdir)
+[2015-07-01 14:32:00.325][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.step.DefaultStepRunner] StepStarted(rm)
+[2015-07-01 14:32:00.326][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.step.DefaultStepRunner] StepFinished(rm)
+[2015-07-01 14:32:00.335][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.step.DefaultStepRunner] StepStarted(calculate_abi)
+[2015-07-01 14:32:00.351][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepFinished(calculate_abi)
+[2015-07-01 14:32:00.362][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepStarted(mkdir)
+[2015-07-01 14:32:00.362][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepFinished(mkdir)
+[2015-07-01 14:32:00.366][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepStarted(get_class_names)
+[2015-07-01 14:32:00.520][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepFinished(get_class_names)
+[2015-07-01 14:32:00.521][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.rules.CachingBuildEngine] Build completed: prebuilt_jar //libs:appcompat#aar_prebuilt_jar (461159603ns)
+[2015-07-01 14:32:00.536][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.rules.CachingBuildEngine] Building locally: //app:app#dex_buildconfig_com_designtest_app
+[2015-07-01 14:32:00.537][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepStarted(rm)
+[2015-07-01 14:32:00.537][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepFinished(rm)
+[2015-07-01 14:32:00.537][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepStarted(mkdir)
+[2015-07-01 14:32:00.537][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepFinished(mkdir)
+[2015-07-01 14:32:00.538][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepStarted(estimate_linear_alloc)
+[2015-07-01 14:32:00.538][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepFinished(estimate_linear_alloc)
+[2015-07-01 14:32:00.538][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.shell.ShellStep] Command: /home/fzq/android/tools/buck/third-party/java/dx-from-kitkat/etc/dx --dex --no-optimize --force-jumbo --output /home/fzq/workspace/DesignTest/buck-out/gen/app/app#dex_buildconfig_com_designtest_app.dex.jar /home/fzq/workspace/DesignTest/buck-out/gen/app/lib__app#buildconfig_com_designtest_app__output/app#buildconfig_com_designtest_app.jar
+[2015-07-01 14:32:00.539][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepStarted(dx)
+[2015-07-01 14:32:00.543][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepFinished(dx)
+[2015-07-01 14:32:00.543][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepStarted(record_dx_success)
+[2015-07-01 14:32:00.553][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepFinished(record_dx_success)
+[2015-07-01 14:32:00.554][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.rules.CachingBuildEngine] Build completed: dex_produced_from_java_library //app:app#dex_buildconfig_com_designtest_app (17348925ns)
+[2015-07-01 14:32:00.567][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.rules.CachingBuildEngine] Building locally: //app:build-config
+[2015-07-01 14:32:00.588][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepStarted(rm_&&_mkdir)
+[2015-07-01 14:32:00.588][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepFinished(rm_&&_mkdir)
+[2015-07-01 14:32:00.589][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepStarted(rm_&&_mkdir)
+[2015-07-01 14:32:00.590][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepFinished(rm_&&_mkdir)
+[2015-07-01 14:32:00.590][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepStarted(mkdir)
+[2015-07-01 14:32:00.590][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepFinished(mkdir)
+[2015-07-01 14:32:00.594][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepStarted(javac)
+[2015-07-01 14:32:00.649][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepFinished(dx)
+[2015-07-01 14:32:00.649][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepStarted(record_dx_success)
+[2015-07-01 14:32:00.650][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepFinished(record_dx_success)
+[2015-07-01 14:32:00.650][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.rules.CachingBuildEngine] Build completed: dex_produced_from_java_library //libs:support-v13#aar_prebuilt_jar,dex (429948613ns)
+[2015-07-01 14:32:00.656][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.rules.CachingBuildEngine] Building locally: //libs:appcompat#aar_prebuilt_jar,dex
+[2015-07-01 14:32:00.671][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepStarted(rm)
+[2015-07-01 14:32:00.672][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepFinished(rm)
+[2015-07-01 14:32:00.672][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepStarted(mkdir)
+[2015-07-01 14:32:00.673][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepFinished(mkdir)
+[2015-07-01 14:32:00.673][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepStarted(estimate_linear_alloc)
+[2015-07-01 14:32:00.696][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepFinished(estimate_linear_alloc)
+[2015-07-01 14:32:00.697][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.shell.ShellStep] Command: /home/fzq/android/tools/buck/third-party/java/dx-from-kitkat/etc/dx --dex --no-optimize --force-jumbo --output /home/fzq/workspace/DesignTest/buck-out/gen/libs/appcompat#aar_prebuilt_jar,dex.dex.jar /home/fzq/workspace/DesignTest/buck-out/gen/libs/appcompat#aar_prebuilt_jar.jar
+[2015-07-01 14:32:00.697][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepStarted(dx)
+[2015-07-01 14:32:00.751][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepFinished(javac)
+[2015-07-01 14:32:00.751][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepStarted(copy_resources)
+[2015-07-01 14:32:00.751][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepFinished(copy_resources)
+[2015-07-01 14:32:00.756][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepStarted(rm_&&_mkdir)
+[2015-07-01 14:32:00.759][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepFinished(rm_&&_mkdir)
+[2015-07-01 14:32:00.759][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepStarted(mkdir)
+[2015-07-01 14:32:00.759][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepFinished(mkdir)
+[2015-07-01 14:32:00.760][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepStarted(jar)
+[2015-07-01 14:32:00.766][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepFinished(jar)
+[2015-07-01 14:32:00.767][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepStarted(calculate_abi)
+[2015-07-01 14:32:00.775][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepFinished(calculate_abi)
+[2015-07-01 14:32:00.780][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepStarted(mkdir)
+[2015-07-01 14:32:00.780][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepFinished(mkdir)
+[2015-07-01 14:32:00.781][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepStarted(get_class_names)
+[2015-07-01 14:32:00.782][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepFinished(get_class_names)
+[2015-07-01 14:32:00.783][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.rules.CachingBuildEngine] Build completed: android_build_config_java_library //app:build-config (198770034ns)
+[2015-07-01 14:32:00.997][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.step.DefaultStepRunner] StepFinished(calculate_abi)
+[2015-07-01 14:32:00.997][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.step.DefaultStepRunner] StepStarted(mkdir)
+[2015-07-01 14:32:00.997][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.step.DefaultStepRunner] StepFinished(mkdir)
+[2015-07-01 14:32:00.998][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.step.DefaultStepRunner] StepStarted(get_class_names)
+[2015-07-01 14:32:01.554][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.step.DefaultStepRunner] StepFinished(get_class_names)
+[2015-07-01 14:32:01.555][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.rules.CachingBuildEngine] Build completed: prebuilt_jar //libs:support-v4#aar_prebuilt_jar (1245475860ns)
+[2015-07-01 14:32:01.580][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.rules.CachingBuildEngine] Building locally: //libs:support-v4
+[2015-07-01 14:32:01.582][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepStarted(rm_&&_mkdir)
+[2015-07-01 14:32:01.583][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepFinished(rm_&&_mkdir)
+[2015-07-01 14:32:01.583][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepStarted(rm_&&_mkdir)
+[2015-07-01 14:32:01.584][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepFinished(rm_&&_mkdir)
+[2015-07-01 14:32:01.585][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepStarted(copy_resources)
+[2015-07-01 14:32:01.585][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepFinished(copy_resources)
+[2015-07-01 14:32:01.586][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepStarted(rm_&&_mkdir)
+[2015-07-01 14:32:01.587][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepFinished(rm_&&_mkdir)
+[2015-07-01 14:32:01.588][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepStarted(mkdir)
+[2015-07-01 14:32:01.589][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepFinished(mkdir)
+[2015-07-01 14:32:01.590][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepStarted(rm_&&_mkdir)
+[2015-07-01 14:32:01.591][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepFinished(rm_&&_mkdir)
+[2015-07-01 14:32:01.592][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepStarted(touch)
+[2015-07-01 14:32:01.594][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepFinished(touch)
+[2015-07-01 14:32:01.594][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepStarted(calculate_abi)
+[2015-07-01 14:32:01.596][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepFinished(calculate_abi)
+[2015-07-01 14:32:01.601][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepStarted(mkdir)
+[2015-07-01 14:32:01.602][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepFinished(mkdir)
+[2015-07-01 14:32:01.602][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepStarted(get_class_names)
+[2015-07-01 14:32:01.603][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepFinished(get_class_names)
+[2015-07-01 14:32:01.604][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.rules.CachingBuildEngine] Build completed: android_prebuilt_aar //libs:support-v4 (23324624ns)
+[2015-07-01 14:32:01.612][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.rules.CachingBuildEngine] Building locally: //libs:support-v4#aar_prebuilt_jar,dex
+[2015-07-01 14:32:01.637][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepStarted(rm)
+[2015-07-01 14:32:01.638][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepFinished(rm)
+[2015-07-01 14:32:01.639][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepStarted(mkdir)
+[2015-07-01 14:32:01.639][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepFinished(mkdir)
+[2015-07-01 14:32:01.640][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepStarted(estimate_linear_alloc)
+[2015-07-01 14:32:01.650][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepFinished(estimate_linear_alloc)
+[2015-07-01 14:32:01.651][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.shell.ShellStep] Command: /home/fzq/android/tools/buck/third-party/java/dx-from-kitkat/etc/dx --dex --no-optimize --force-jumbo --output /home/fzq/workspace/DesignTest/buck-out/gen/libs/support-v4#aar_prebuilt_jar,dex.dex.jar /home/fzq/workspace/DesignTest/buck-out/gen/libs/support-v4#aar_prebuilt_jar.jar
+[2015-07-01 14:32:01.652][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepStarted(dx)
+[2015-07-01 14:32:02.060][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepFinished(generate_resource_ids)
+[2015-07-01 14:32:02.060][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepStarted(record_file_sha1)
+[2015-07-01 14:32:02.062][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepFinished(record_file_sha1)
+[2015-07-01 14:32:02.062][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.rules.CachingBuildEngine] Build completed: android_resource //libs:appcompat#aar_android_resource (2011204990ns)
+[2015-07-01 14:32:02.072][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.rules.CachingBuildEngine] Building locally: //app:app#aapt_package
+[2015-07-01 14:32:02.078][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.step.DefaultStepRunner] StepStarted(mkdir_&&_symlink_file)
+[2015-07-01 14:32:02.079][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.step.DefaultStepRunner] StepFinished(mkdir_&&_symlink_file)
+[2015-07-01 14:32:02.080][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.step.DefaultStepRunner] StepStarted(symlink_assets)
+[2015-07-01 14:32:02.082][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.step.DefaultStepRunner] StepFinished(symlink_assets)
+[2015-07-01 14:32:02.083][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.step.DefaultStepRunner] StepStarted(mkdir)
+[2015-07-01 14:32:02.084][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.step.DefaultStepRunner] StepFinished(mkdir)
+[2015-07-01 14:32:02.085][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.step.DefaultStepRunner] StepStarted(rm_&&_mkdir)
+[2015-07-01 14:32:02.088][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.step.DefaultStepRunner] StepFinished(rm_&&_mkdir)
+[2015-07-01 14:32:02.091][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.shell.ShellStep] Command: /home/fzq/Android/Sdk/build-tools/22.0.1/aapt package -f --auto-add-overlay -S buck-out/bin/libs/__unpack_support-v4#aar_unzip__/res -S buck-out/bin/libs/__unpack_support-v13#aar_unzip__/res -S buck-out/bin/libs/__unpack_appcompat#aar_unzip__/res -S buck-out/bin/libs/__unpack_android-design#aar_unzip__/res -S app/src/main/res -A buck-out/bin/app/__assets_app#aapt_package__ --output-text-symbols buck-out/bin/app/__app#aapt_package_res_symbols__ -J buck-out/bin/app/__app#aapt_package_res_symbols__ -M buck-out/bin/app/__manifest_app#aapt_package__/AndroidManifest.xml -I /home/fzq/Android/Sdk/platforms/android-21/android.jar -F buck-out/gen/app/app#aapt_package.unsigned.ap_ --ignore-assets \!.gitkeep:\!.svn:\!.git:\!.ds_store:\!*.scc:.*:<dir>_*:\!CVS:\!thumbs.db:\!picasa.ini:\!*~:*.orig
+[2015-07-01 14:32:02.100][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.step.DefaultStepRunner] StepStarted(aapt_package)
+[2015-07-01 14:32:02.100][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.rules.CachingBuildEngine] Building locally: //libs:appcompat
+[2015-07-01 14:32:02.104][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepStarted(rm_&&_mkdir)
+[2015-07-01 14:32:02.105][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepFinished(rm_&&_mkdir)
+[2015-07-01 14:32:02.106][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepStarted(rm_&&_mkdir)
+[2015-07-01 14:32:02.106][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepFinished(rm_&&_mkdir)
+[2015-07-01 14:32:02.107][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepStarted(copy_resources)
+[2015-07-01 14:32:02.107][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepFinished(copy_resources)
+[2015-07-01 14:32:02.108][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepStarted(rm_&&_mkdir)
+[2015-07-01 14:32:02.112][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepFinished(rm_&&_mkdir)
+[2015-07-01 14:32:02.113][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepStarted(mkdir)
+[2015-07-01 14:32:02.113][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepFinished(mkdir)
+[2015-07-01 14:32:02.114][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepStarted(rm_&&_mkdir)
+[2015-07-01 14:32:02.115][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepFinished(rm_&&_mkdir)
+[2015-07-01 14:32:02.116][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepStarted(touch)
+[2015-07-01 14:32:02.120][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepFinished(touch)
+[2015-07-01 14:32:02.121][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepStarted(calculate_abi)
+[2015-07-01 14:32:02.122][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepFinished(calculate_abi)
+[2015-07-01 14:32:02.123][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepStarted(mkdir)
+[2015-07-01 14:32:02.124][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepFinished(mkdir)
+[2015-07-01 14:32:02.125][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepStarted(get_class_names)
+[2015-07-01 14:32:02.128][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepFinished(get_class_names)
+[2015-07-01 14:32:02.129][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.rules.CachingBuildEngine] Build completed: android_prebuilt_aar //libs:appcompat (27871809ns)
+[2015-07-01 14:32:02.216][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.rules.CachingBuildEngine] Building locally: //app:app#copy_native_libs
+[2015-07-01 14:32:02.219][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepStarted(rm_&&_mkdir)
+[2015-07-01 14:32:02.220][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepFinished(rm_&&_mkdir)
+[2015-07-01 14:32:02.220][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepStarted(cp)
+[2015-07-01 14:32:02.221][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepFinished(cp)
+[2015-07-01 14:32:02.221][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepStarted(rename_native_executables)
+[2015-07-01 14:32:02.240][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepFinished(rename_native_executables)
+[2015-07-01 14:32:02.241][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepStarted(cp)
+[2015-07-01 14:32:02.241][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepFinished(cp)
+[2015-07-01 14:32:02.242][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepStarted(rename_native_executables)
+[2015-07-01 14:32:02.242][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepFinished(rename_native_executables)
+[2015-07-01 14:32:02.243][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepStarted(cp)
+[2015-07-01 14:32:02.243][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepFinished(cp)
+[2015-07-01 14:32:02.244][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepStarted(rename_native_executables)
+[2015-07-01 14:32:02.244][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepFinished(rename_native_executables)
+[2015-07-01 14:32:02.245][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepStarted(cp)
+[2015-07-01 14:32:02.245][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepFinished(cp)
+[2015-07-01 14:32:02.246][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepStarted(rename_native_executables)
+[2015-07-01 14:32:02.246][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepFinished(rename_native_executables)
+[2015-07-01 14:32:02.246][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepStarted(hash_native_libs)
+[2015-07-01 14:32:02.248][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepFinished(hash_native_libs)
+[2015-07-01 14:32:02.248][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.rules.CachingBuildEngine] Build completed: copy_native_libraries //app:app#copy_native_libs (31645672ns)
+[2015-07-01 14:32:02.265][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.rules.CachingBuildEngine] Building locally: //libs:all-jars#dummy_r_dot_java
+[2015-07-01 14:32:02.266][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepStarted(rm_&&_mkdir)
+[2015-07-01 14:32:02.268][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepFinished(rm_&&_mkdir)
+[2015-07-01 14:32:02.268][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepStarted(android-res-merge)
+[2015-07-01 14:32:02.427][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepFinished(android-res-merge)
+[2015-07-01 14:32:02.427][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepStarted(rm_&&_mkdir)
+[2015-07-01 14:32:02.428][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepFinished(rm_&&_mkdir)
+[2015-07-01 14:32:02.429][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepStarted(rm_&&_mkdir)
+[2015-07-01 14:32:02.430][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepFinished(rm_&&_mkdir)
+[2015-07-01 14:32:02.430][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepStarted(javac)
+[2015-07-01 14:32:03.217][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.step.DefaultStepRunner] StepFinished(dx)
+[2015-07-01 14:32:03.218][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.step.DefaultStepRunner] StepStarted(record_dx_success)
+[2015-07-01 14:32:03.237][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.step.DefaultStepRunner] StepFinished(record_dx_success)
+[2015-07-01 14:32:03.237][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.rules.CachingBuildEngine] Build completed: dex_produced_from_java_library //libs:android-design#aar_prebuilt_jar,dex (3937290185ns)
+[2015-07-01 14:32:03.320][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.step.DefaultStepRunner] StepFinished(aapt_package)
+[2015-07-01 14:32:03.320][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.step.DefaultStepRunner] StepStarted(rm_&&_mkdir)
+[2015-07-01 14:32:03.321][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.step.DefaultStepRunner] StepFinished(rm_&&_mkdir)
+[2015-07-01 14:32:03.321][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.step.DefaultStepRunner] StepStarted(android-res-merge)
+[2015-07-01 14:32:03.360][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepFinished(javac)
+[2015-07-01 14:32:03.360][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepStarted(calculate_abi)
+[2015-07-01 14:32:03.407][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepFinished(calculate_abi)
+[2015-07-01 14:32:03.410][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.rules.CachingBuildEngine] Build completed: dummy_r_dot_java //libs:all-jars#dummy_r_dot_java (1144584134ns)
+[2015-07-01 14:32:03.417][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.rules.CachingBuildEngine] Building locally: //libs:all-jars
+[2015-07-01 14:32:03.420][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.step.DefaultStepRunner] StepStarted(rm_&&_mkdir)
+[2015-07-01 14:32:03.421][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.step.DefaultStepRunner] StepFinished(rm_&&_mkdir)
+[2015-07-01 14:32:03.421][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.step.DefaultStepRunner] StepStarted(rm_&&_mkdir)
+[2015-07-01 14:32:03.421][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.step.DefaultStepRunner] StepFinished(rm_&&_mkdir)
+[2015-07-01 14:32:03.422][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.step.DefaultStepRunner] StepStarted(copy_resources)
+[2015-07-01 14:32:03.422][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.step.DefaultStepRunner] StepFinished(copy_resources)
+[2015-07-01 14:32:03.422][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.step.DefaultStepRunner] StepStarted(rm_&&_mkdir)
+[2015-07-01 14:32:03.422][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.step.DefaultStepRunner] StepFinished(rm_&&_mkdir)
+[2015-07-01 14:32:03.423][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.step.DefaultStepRunner] StepStarted(mkdir)
+[2015-07-01 14:32:03.423][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.step.DefaultStepRunner] StepFinished(mkdir)
+[2015-07-01 14:32:03.423][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.step.DefaultStepRunner] StepStarted(rm_&&_mkdir)
+[2015-07-01 14:32:03.424][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.step.DefaultStepRunner] StepFinished(rm_&&_mkdir)
+[2015-07-01 14:32:03.424][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.step.DefaultStepRunner] StepStarted(touch)
+[2015-07-01 14:32:03.424][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.step.DefaultStepRunner] StepFinished(touch)
+[2015-07-01 14:32:03.424][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.step.DefaultStepRunner] StepStarted(calculate_abi)
+[2015-07-01 14:32:03.425][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.step.DefaultStepRunner] StepFinished(calculate_abi)
+[2015-07-01 14:32:03.425][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.step.DefaultStepRunner] StepStarted(mkdir)
+[2015-07-01 14:32:03.426][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.step.DefaultStepRunner] StepFinished(mkdir)
+[2015-07-01 14:32:03.426][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.step.DefaultStepRunner] StepStarted(get_class_names)
+[2015-07-01 14:32:03.426][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.step.DefaultStepRunner] StepFinished(get_class_names)
+[2015-07-01 14:32:03.426][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.rules.CachingBuildEngine] Build completed: android_library //libs:all-jars (9615229ns)
+[2015-07-01 14:32:03.434][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.rules.CachingBuildEngine] Building locally: //app:application-lib
+[2015-07-01 14:32:03.444][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.rules.CachingBuildEngine] Building locally: //app:src
+[2015-07-01 14:32:03.446][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepStarted(rm_&&_mkdir)
+[2015-07-01 14:32:03.446][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepFinished(rm_&&_mkdir)
+[2015-07-01 14:32:03.447][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepStarted(rm_&&_mkdir)
+[2015-07-01 14:32:03.447][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepFinished(rm_&&_mkdir)
+[2015-07-01 14:32:03.447][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepStarted(mkdir)
+[2015-07-01 14:32:03.457][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.step.DefaultStepRunner] StepStarted(rm_&&_mkdir)
+[2015-07-01 14:32:03.458][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.step.DefaultStepRunner] StepFinished(rm_&&_mkdir)
+[2015-07-01 14:32:03.459][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.step.DefaultStepRunner] StepStarted(rm_&&_mkdir)
+[2015-07-01 14:32:03.460][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepFinished(mkdir)
+[2015-07-01 14:32:03.460][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.step.DefaultStepRunner] StepFinished(rm_&&_mkdir)
+[2015-07-01 14:32:03.460][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.step.DefaultStepRunner] StepStarted(mkdir)
+[2015-07-01 14:32:03.461][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.step.DefaultStepRunner] StepFinished(mkdir)
+[2015-07-01 14:32:03.461][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.step.DefaultStepRunner] StepStarted(javac)
+[2015-07-01 14:32:03.460][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepStarted(javac)
+[2015-07-01 14:32:03.582][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.step.DefaultStepRunner] StepFinished(android-res-merge)
+[2015-07-01 14:32:03.582][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.step.DefaultStepRunner] StepStarted(rm_&&_mkdir)
+[2015-07-01 14:32:03.583][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.step.DefaultStepRunner] StepFinished(rm_&&_mkdir)
+[2015-07-01 14:32:03.583][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.step.DefaultStepRunner] StepStarted(javac)
+[2015-07-01 14:32:04.785][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.step.DefaultStepRunner] StepFinished(javac)
+[2015-07-01 14:32:04.788][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.step.DefaultStepRunner] StepStarted(copy_resources)
+[2015-07-01 14:32:04.790][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.step.DefaultStepRunner] StepFinished(copy_resources)
+[2015-07-01 14:32:04.792][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.step.DefaultStepRunner] StepStarted(rm_&&_mkdir)
+[2015-07-01 14:32:04.793][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.step.DefaultStepRunner] StepFinished(rm_&&_mkdir)
+[2015-07-01 14:32:04.793][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.step.DefaultStepRunner] StepStarted(mkdir)
+[2015-07-01 14:32:04.794][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.step.DefaultStepRunner] StepFinished(mkdir)
+[2015-07-01 14:32:04.794][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.step.DefaultStepRunner] StepStarted(jar)
+[2015-07-01 14:32:04.796][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.step.DefaultStepRunner] StepFinished(jar)
+[2015-07-01 14:32:04.796][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.step.DefaultStepRunner] StepStarted(calculate_abi)
+[2015-07-01 14:32:04.798][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.step.DefaultStepRunner] StepFinished(calculate_abi)
+[2015-07-01 14:32:04.799][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.step.DefaultStepRunner] StepStarted(mkdir)
+[2015-07-01 14:32:04.799][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.step.DefaultStepRunner] StepFinished(mkdir)
+[2015-07-01 14:32:04.799][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.step.DefaultStepRunner] StepStarted(get_class_names)
+[2015-07-01 14:32:04.800][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.step.DefaultStepRunner] StepFinished(get_class_names)
+[2015-07-01 14:32:04.808][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.rules.CachingBuildEngine] Build completed: android_library //app:application-lib (1373730822ns)
+[2015-07-01 14:32:04.811][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.rules.CachingBuildEngine] Building locally: //app:application-lib#dex
+[2015-07-01 14:32:04.812][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.step.DefaultStepRunner] StepStarted(rm)
+[2015-07-01 14:32:04.812][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.step.DefaultStepRunner] StepFinished(rm)
+[2015-07-01 14:32:04.813][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.step.DefaultStepRunner] StepStarted(mkdir)
+[2015-07-01 14:32:04.813][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.step.DefaultStepRunner] StepFinished(mkdir)
+[2015-07-01 14:32:04.814][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.step.DefaultStepRunner] StepStarted(estimate_linear_alloc)
+[2015-07-01 14:32:04.814][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.step.DefaultStepRunner] StepFinished(estimate_linear_alloc)
+[2015-07-01 14:32:04.814][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.shell.ShellStep] Command: /home/fzq/android/tools/buck/third-party/java/dx-from-kitkat/etc/dx --dex --no-optimize --force-jumbo --output /home/fzq/workspace/DesignTest/buck-out/gen/app/application-lib#dex.dex.jar /home/fzq/workspace/DesignTest/buck-out/gen/app/lib__application-lib__output/application-lib.jar
+[2015-07-01 14:32:04.815][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.step.DefaultStepRunner] StepStarted(dx)
+[2015-07-01 14:32:04.830][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.step.DefaultStepRunner] StepFinished(dx)
+[2015-07-01 14:32:04.830][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.step.DefaultStepRunner] StepStarted(record_dx_success)
+[2015-07-01 14:32:04.831][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.step.DefaultStepRunner] StepFinished(record_dx_success)
+[2015-07-01 14:32:04.831][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:41][com.facebook.buck.rules.CachingBuildEngine] Build completed: dex_produced_from_java_library //app:application-lib#dex (19461521ns)
+[2015-07-01 14:32:05.013][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] MissingSymbolEvent(Missing symbol: app.src.main.java.com.designtest.app.drawable)
+[2015-07-01 14:32:05.032][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:43][com.facebook.buck.step.DefaultStepRunner] StepFinished(javac)
+[2015-07-01 14:32:05.045][warn ][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:29][com.facebook.buck.util.Console] Build error caused by exception
+java.util.concurrent.ExecutionException: com.facebook.buck.step.StepFailedException: //app:src failed with exit code 1:
+javac
+	at com.google.common.util.concurrent.AbstractFuture$Sync.getValue(AbstractFuture.java:299)
+	at com.google.common.util.concurrent.AbstractFuture$Sync.get(AbstractFuture.java:286)
+	at com.google.common.util.concurrent.AbstractFuture.get(AbstractFuture.java:116)
+	at com.facebook.buck.command.Build.executeBuild(Build.java:239)
+	at com.facebook.buck.command.Build.executeAndPrintFailuresToConsole(Build.java:270)
+	at com.facebook.buck.cli.BuildCommand.runWithoutHelp(BuildCommand.java:368)
+	at com.facebook.buck.cli.InstallCommand.runWithoutHelp(InstallCommand.java:157)
+	at com.facebook.buck.cli.AbstractCommand.run(AbstractCommand.java:133)
+	at com.facebook.buck.cli.BuckCommand.run(BuckCommand.java:80)
+	at com.facebook.buck.cli.Main.runMainWithExitCode(Main.java:655)
+	at com.facebook.buck.cli.Main.tryRunMainWithExitCode(Main.java:990)
+	at com.facebook.buck.cli.Main.runMainThenExit(Main.java:1047)
+	at com.facebook.buck.cli.Main.nailMain(Main.java:1076)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.martiansoftware.nailgun.NGSession.run(NGSession.java:338)
+Caused by: com.facebook.buck.step.StepFailedException: //app:src failed with exit code 1:
+javac
+	at com.facebook.buck.step.StepFailedException.createForFailingStepWithExitCode(StepFailedException.java:57)
+	at com.facebook.buck.step.DefaultStepRunner.runStepForBuildTarget(DefaultStepRunner.java:70)
+	at com.facebook.buck.rules.CachingBuildEngine.executeCommandsNowThatDepsAreBuilt(CachingBuildEngine.java:702)
+	at com.facebook.buck.rules.CachingBuildEngine.access$4(CachingBuildEngine.java:678)
+	at com.facebook.buck.rules.CachingBuildEngine$1.apply(CachingBuildEngine.java:269)
+	at com.facebook.buck.rules.CachingBuildEngine$1.apply(CachingBuildEngine.java:1)
+	at com.google.common.util.concurrent.Futures$ChainingListenableFuture.run(Futures.java:906)
+	at com.google.common.util.concurrent.Futures$1$1.run(Futures.java:635)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+[2015-07-01 14:32:05.055][debug][command:null][tid:37][com.facebook.buck.event.listener.SuperConsoleEventBusListener] Stopping console output (stdout dirty false, stderr dirty true).
+[2015-07-01 14:32:05.055][debug][command:null][tid:37][com.facebook.buck.event.listener.SuperConsoleEventBusListener] Stopping render scheduler
+[2015-07-01 14:32:05.058][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.step.DefaultStepRunner] StepFinished(javac)
+[2015-07-01 14:32:05.059][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.step.DefaultStepRunner] StepStarted(rm_&&_mkdir)
+[2015-07-01 14:32:05.060][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.step.DefaultStepRunner] StepFinished(rm_&&_mkdir)
+[2015-07-01 14:32:05.060][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.step.DefaultStepRunner] StepStarted(get_class_names)
+[2015-07-01 14:32:05.078][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.step.DefaultStepRunner] StepFinished(get_class_names)
+[2015-07-01 14:32:05.079][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.step.DefaultStepRunner] StepStarted(rm_&&_mkdir)
+[2015-07-01 14:32:05.079][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.step.DefaultStepRunner] StepFinished(rm_&&_mkdir)
+[2015-07-01 14:32:05.079][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.shell.ShellStep] Command: /home/fzq/android/tools/buck/third-party/java/dx-from-kitkat/etc/dx --dex --no-optimize --output /home/fzq/workspace/DesignTest/buck-out/bin/app/__app#aapt_package_rdotjava_dex__/classes.dex.jar /home/fzq/workspace/DesignTest/buck-out/bin/app/__app#aapt_package_rdotjava_bin__
+[2015-07-01 14:32:05.080][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.step.DefaultStepRunner] StepStarted(dx)
+[2015-07-01 14:32:05.247][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.step.DefaultStepRunner] StepFinished(dx)
+[2015-07-01 14:32:05.247][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.step.DefaultStepRunner] StepStarted(estimate_linear_alloc)
+[2015-07-01 14:32:05.253][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.step.DefaultStepRunner] StepFinished(estimate_linear_alloc)
+[2015-07-01 14:32:05.253][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.step.DefaultStepRunner] StepStarted(record_build_output)
+[2015-07-01 14:32:05.253][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.step.DefaultStepRunner] StepFinished(record_build_output)
+[2015-07-01 14:32:05.253][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.step.DefaultStepRunner] StepStarted(record_file_sha1)
+[2015-07-01 14:32:05.264][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.step.DefaultStepRunner] StepFinished(record_file_sha1)
+[2015-07-01 14:32:05.265][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:40][com.facebook.buck.rules.CachingBuildEngine] Build completed: aapt_package_resources //app:app#aapt_package (3191386366ns)
+[2015-07-01 14:32:05.440][info ][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] Build finished at 2015-07-01 14:32:05.047
+[2015-07-01 14:32:05.449][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] BuckFilesParseFinished()
+[2015-07-01 14:32:06.621][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepFinished(dx)
+[2015-07-01 14:32:06.622][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepStarted(record_dx_success)
+[2015-07-01 14:32:06.629][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.step.DefaultStepRunner] StepFinished(record_dx_success)
+[2015-07-01 14:32:06.629][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:44][com.facebook.buck.rules.CachingBuildEngine] Build completed: dex_produced_from_java_library //libs:appcompat#aar_prebuilt_jar,dex (5973079677ns)
+[2015-07-01 14:32:07.722][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepFinished(dx)
+[2015-07-01 14:32:07.722][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepStarted(record_dx_success)
+[2015-07-01 14:32:07.728][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.step.DefaultStepRunner] StepFinished(record_dx_success)
+[2015-07-01 14:32:07.729][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:42][com.facebook.buck.rules.CachingBuildEngine] Build completed: dex_produced_from_java_library //libs:support-v4#aar_prebuilt_jar,dex (6116392357ns)
+[2015-07-01 14:32:07.748][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:29][com.facebook.buck.parser.Parser] Cleaning cache of build files with inputs under symlink []
+[2015-07-01 14:32:07.749][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:38][com.facebook.buck.event.listener.LoggingBuildListener] CommandFinished(install, isDaemon: true)
+[2015-07-01 14:32:07.749][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:29][com.facebook.buck.event.listener.SuperConsoleEventBusListener] Stopping render scheduler
+[2015-07-01 14:32:07.750][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:29][com.facebook.buck.event.listener.SuperConsoleEventBusListener] Stopping console output (stdout dirty false, stderr dirty true).
+[2015-07-01 14:32:07.751][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:29][com.facebook.buck.event.listener.SuperConsoleEventBusListener] Stopping render scheduler
+[2015-07-01 14:32:07.752][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:29][com.facebook.buck.event.listener.ChromeTraceBuildListener] Writing Chrome trace to buck-out/log/traces/build.2015-07-01.14-32-07.3cce3a44-cde7-420a-9df5-f769aa0de1f4.trace
+[2015-07-01 14:32:07.817][debug][command:3cce3a44-cde7-420a-9df5-f769aa0de1f4][tid:29][com.facebook.buck.cli.Main] Done.
+[2015-07-01 14:32:07.817][debug][command:null][tid:29][class com.martiansoftware.nailgun.NGSession] Nail finished.
+[2015-07-01 14:32:07.818][error][command:null][tid:29][class com.martiansoftware.nailgun.NGSession] Caught NGExitException, cleaning up session and writing exit command to client.
+com.martiansoftware.nailgun.NGExitException: ExitException: status 1
+	at com.martiansoftware.nailgun.NGSecurityManager.checkExit(NGSecurityManager.java:56)
+	at java.lang.Runtime.exit(Runtime.java:107)
+	at java.lang.System.exit(System.java:971)
+	at com.facebook.buck.cli.Main.runMainThenExit(Main.java:1060)
+	at com.facebook.buck.cli.Main.nailMain(Main.java:1076)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.martiansoftware.nailgun.NGSession.run(NGSession.java:338)
+
+[2015-07-01 14:32:07.823][debug][command:null][tid:29][class com.martiansoftware.nailgun.NGSession] Closing client streams and socket.
+[2015-07-01 14:32:40.915][debug][command:null][tid:32][class com.martiansoftware.nailgun.NGSession] Received connection from 127.0.0.1
+[2015-07-01 14:32:40.916][debug][command:null][tid:32][class com.martiansoftware.nailgun.NGSession] Working directory: /home/fzq/workspace/DesignTest
+[2015-07-01 14:32:40.916][debug][command:null][tid:32][class com.martiansoftware.nailgun.NGSession] Received command: ng-stats
+[2015-07-01 14:32:40.917][debug][command:null][tid:32][class com.martiansoftware.nailgun.NGSession] Invoking main method: public static void com.martiansoftware.nailgun.builtins.NGServerStats.nailMain(com.martiansoftware.nailgun.NGContext)
+[2015-07-01 14:32:40.917][debug][command:null][tid:32][class com.martiansoftware.nailgun.NGSession] Nail finished.
+[2015-07-01 14:32:40.917][debug][command:null][tid:32][class com.martiansoftware.nailgun.NGSession] Writing exit command with successful status 0 to client.
+[2015-07-01 14:32:40.917][debug][command:null][tid:32][class com.martiansoftware.nailgun.NGSession] Closing client streams and socket.
+[2015-07-01 14:32:40.920][debug][command:null][tid:48][class com.martiansoftware.nailgun.NGSession] Received connection from 127.0.0.1
+[2015-07-01 14:32:40.921][debug][command:null][tid:48][class com.martiansoftware.nailgun.NGSession] Working directory: /home/fzq/workspace/DesignTest
+[2015-07-01 14:32:40.922][debug][command:null][tid:48][class com.martiansoftware.nailgun.NGSession] Received command: ng-stats
+[2015-07-01 14:32:40.922][debug][command:null][tid:48][class com.martiansoftware.nailgun.NGSession] Invoking main method: public static void com.martiansoftware.nailgun.builtins.NGServerStats.nailMain(com.martiansoftware.nailgun.NGContext)
+[2015-07-01 14:32:40.923][debug][command:null][tid:48][class com.martiansoftware.nailgun.NGSession] Nail finished.
+[2015-07-01 14:32:40.923][debug][command:null][tid:48][class com.martiansoftware.nailgun.NGSession] Writing exit command with successful status 0 to client.
+[2015-07-01 14:32:40.924][debug][command:null][tid:48][class com.martiansoftware.nailgun.NGSession] Closing client streams and socket.
+[2015-07-01 14:32:40.926][debug][command:null][tid:50][class com.martiansoftware.nailgun.NGSession] Received connection from 127.0.0.1
+[2015-07-01 14:32:40.926][debug][command:null][tid:50][class com.martiansoftware.nailgun.NGSession] Received command line argument: project
+[2015-07-01 14:32:40.927][debug][command:null][tid:50][class com.martiansoftware.nailgun.NGSession] Working directory: /home/fzq/workspace/DesignTest
+[2015-07-01 14:32:40.927][debug][command:null][tid:50][class com.martiansoftware.nailgun.NGSession] Received command: com.facebook.buck.cli.Main
+[2015-07-01 14:32:40.928][debug][command:null][tid:50][class com.martiansoftware.nailgun.NGSession] Invoking main method: public static void com.facebook.buck.cli.Main.nailMain(com.martiansoftware.nailgun.NGContext) throws java.lang.InterruptedException
+[2015-07-01 14:32:40.928][debug][command:a0f794ac-8dc2-46c5-9905-36dd97225ca1][tid:50][com.facebook.buck.cli.Main] Rotating log.

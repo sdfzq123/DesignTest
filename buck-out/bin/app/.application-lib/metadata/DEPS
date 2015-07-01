@@ -1,0 +1,1 @@
+["//app:application-lib#dummy_r_dot_java","//app:build-config","//app:res","//libs:all-jars","//libs:android-design","//libs:android-design#aar_prebuilt_jar","//libs:appcompat","//libs:appcompat#aar_prebuilt_jar","//libs:jars__buck-android-support.jar","//libs:support-v13","//libs:support-v13#aar_prebuilt_jar","//libs:support-v4","//libs:support-v4#aar_prebuilt_jar"]

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="android" name="Android">
+      <configuration>
+        <option name="GEN_FOLDER_RELATIVE_PATH_APT" value="/../buck-out/android/app/gen" />
+        <option name="GEN_FOLDER_RELATIVE_PATH_AIDL" value="/../buck-out/android/app/gen" />
+        <option name="MANIFEST_FILE_RELATIVE_PATH" value="/src/main/AndroidManifest.xml" />
+        <option name="RES_FOLDER_RELATIVE_PATH" value="/src/main/res" />
+        <option name="APK_PATH" value="/../buck-out/gen/app/app.apk" />
+        <option name="CUSTOM_DEBUG_KEYSTORE_PATH" value="file://$MODULE_DIR$/debug.keystore" />
+        <includeAssetsFromLibraries>true</includeAssetsFromLibraries>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/aidl" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/gen" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../buck-out/android/app/gen">
+      <sourceFolder url="file://$MODULE_DIR$/../buck-out/android/app/gen" isTestSource="false" generated="true" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" exported="" name="buck_out_gen_libs_android_design#aar_prebuilt_jar_jar" level="project" />
+    <orderEntry type="library" exported="" name="buck_out_gen_libs_appcompat#aar_prebuilt_jar_jar" level="project" />
+    <orderEntry type="library" exported="" name="buck_out_gen_libs_jars__buck_android_support_jar_jar" level="project" />
+    <orderEntry type="library" exported="" name="buck_out_gen_libs_support_v13#aar_prebuilt_jar_jar" level="project" />
+    <orderEntry type="library" exported="" name="buck_out_gen_libs_support_v4#aar_prebuilt_jar_jar" level="project" />
+    <orderEntry type="library" exported="" name="__libs_android_design" level="project" />
+    <orderEntry type="library" exported="" name="__libs_appcompat" level="project" />
+    <orderEntry type="library" exported="" name="__libs_support_v13" level="project" />
+    <orderEntry type="library" exported="" name="__libs_support_v4" level="project" />
+    <orderEntry type="module" module-name="module_libs" />
+    <orderEntry type="module" module-name="module_libs" />
+    <orderEntry type="module" module-name="module_libs" />
+    <orderEntry type="module" module-name="module_libs" />
+    <orderEntry type="module" module-name="module_libs" />
+    <orderEntry type="inheritedJdk" />
+  </component>
+</module>

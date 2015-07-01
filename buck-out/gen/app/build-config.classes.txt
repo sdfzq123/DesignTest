@@ -1,0 +1,1 @@
+com/designtest/app/BuildConfig fde332c33941e19d860b2e1cef592c2446ffa220
